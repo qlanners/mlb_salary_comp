@@ -145,7 +145,7 @@ def salary_scraper(team, team_url, year, players_csv_path, salaries_csv_path):
 		driver = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver', chrome_options = option, desired_capabilities = capa)
 
 		#have the chromedriver wait 5 seconds if page isn't instantly located
-		wait = WebDriverWait(driver, 5)
+		wait = WebDriverWait(driver, 30)
 
 		#create the unique url for the payroll site for the team and year
 		url = "https://www.spotrac.com/mlb/"+team_url+"/payroll/"+str(year)+"/"
@@ -318,7 +318,8 @@ def main(players_csv_path, salaries_csv_path, years, teams, split=True, batter_s
 
 
 #list of the years from which to scrape salary data from
-years = list(range(2000,2019))
+# years = list(range(2000,2019))
+years = list(range(2018,2019))
 
 
 #Dictionary of team abbreviations and corresponding url component used by spotrac for that team. Used to create unique URLs for each team

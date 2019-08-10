@@ -4,8 +4,8 @@ python3 salary_scraper.py > salary_output.txt
 echo "running bbr scraper"
 python3 bbr_scraper.py > bbr_output.txt
 
-echo "running missing bbr scraper"
-python3 bbr_missing_players_scraper.py > bbr_missing_players_output.txt
+# echo "running missing bbr scraper"
+# python3 bbr_missing_players_scraper.py > bbr_missing_players_output.txt
 
 echo "removing TOTs"
 python3 remove_TOTs.py > remove_TOTs_output.txt
