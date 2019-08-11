@@ -14,7 +14,7 @@ sudo mkdir output
 
 sudo mv salary_output.txt output
 sudo mv bbr_output.txt output
-sudo mv bbr_missing_players_output.txt output
+# sudo mv bbr_missing_players_output.txt output
 sudo mv remove_TOTs_output.txt output
 sudo mv players.csv output
 sudo mv batters.csv output
@@ -22,10 +22,10 @@ sudo mv pitchers.csv output
 sudo mv salaries.csv output
 sudo mv batters_bbr.csv output
 sudo mv pitchers_bbr.csv output
-sudo mv batters_bbr_full.csv output
-sudo mv pitchers_bbr_full.csv output
-sudo mv batters_bbr_full_TOTs_removed.csv output
-sudo mv pitchers_bbr_full_TOTs_removed.csv output
+# sudo mv batters_bbr_full.csv output
+# sudo mv pitchers_bbr_full.csv output
+sudo mv batters_bbr_TOTs_removed.csv output
+sudo mv pitchers_bbr_TOTs_removed.csv output
 
 zip -r output.zip output
 mv output.zip ../

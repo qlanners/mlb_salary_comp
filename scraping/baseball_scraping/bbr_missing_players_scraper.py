@@ -55,8 +55,6 @@ def search_player(player_name, pitcher=False):
 
 	driver.get('https://www.baseball-reference.com/')
 
-	print(driver)
-
 	wait.until(EC.presence_of_element_located((By.XPATH, "//*[@id='header']/div[3]/form/div/div")))
 
 	stuff = driver.find_element_by_xpath("//*[@id='header']/div[3]/form/div/div/input[2]")

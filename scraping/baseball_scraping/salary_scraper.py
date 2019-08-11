@@ -318,8 +318,8 @@ def main(players_csv_path, salaries_csv_path, years, teams, split=True, batter_s
 
 
 #list of the years from which to scrape salary data from
-# years = list(range(2000,2019))
-years = list(range(2018,2019))
+years = list(range(2000,2019))
+# years = list(range(2018,2019))
 
 
 #Dictionary of team abbreviations and corresponding url component used by spotrac for that team. Used to create unique URLs for each team

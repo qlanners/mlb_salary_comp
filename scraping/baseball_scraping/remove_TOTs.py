@@ -105,7 +105,7 @@ def remove_multiple_teams(bbr_data_csv, pitchers=False):
 	bbr_data.to_csv(csv_name+'_TOTs_removed.csv', index=False)
 
 
-remove_multiple_teams('batters_bbr_full.csv')
+remove_multiple_teams('batters_bbr.csv')
 print('Batters Done')
-remove_multiple_teams('pitchers_bbr_full.csv',pitchers=True)
+remove_multiple_teams('pitchers_bbr.csv',pitchers=True)
 print('Pitchers Done')

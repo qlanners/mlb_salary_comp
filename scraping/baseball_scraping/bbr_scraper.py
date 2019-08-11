@@ -69,7 +69,6 @@ look_up_function:
 '''
 def look_up_function(name, year, number, pitcher=False):
 
-	got_to=0
 	option = Options()
 	option.add_argument(" - incognito")
 	option.add_argument("--no-startup-window")
@@ -77,77 +76,54 @@ def look_up_function(name, year, number, pitcher=False):
 
 	capa = DesiredCapabilities.CHROME
 	capa["pageLoadStrategy"] = "none"
-	got_to = 1
 	'''ensure that the executable_path points to the directory where your chromedriver is installed (note this code is optimized for 
 	google cloud services and thus the path will be different if being run on local computer)'''
 	driver = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver', chrome_options = option, desired_capabilities = capa)
-	got_to = 2
 	#have the chromedriver wait 10 seconds if page isn't instantly located
 	wait = WebDriverWait(driver, 30)
-	got_to = 3
 	#create url for player from passsed name and number
 	url = "https://www.baseball-reference.com/players/"+name[0]+"/"+name+number+".shtml"
 
-	print(url)
-	got_to = 4
 	driver.get(url)
-	got_to = 5
 
 	if pitcher:
 		wait.until(EC.presence_of_element_located((By.XPATH, "//*[@id='pitching_value']")))
 	else:
 		wait.until(EC.presence_of_element_located((By.XPATH, "//*[@id='batting_value']")))
-	got_to = 6
 
 	#pull appropriate tables from website depending on whether the player is a positional player or a pitcher
 	if pitcher:
 		standard = driver.find_element_by_xpath("//*[@id='pitching_standard']").get_attribute('outerHTML')
-		got_to = 7
 		value = driver.find_element_by_xpath("//*[@id='pitching_value']").get_attribute('outerHTML')
-		got_to = 8
 	else:		
 		standard = driver.find_element_by_xpath("//*[@id='batting_standard']").get_attribute('outerHTML')
-		got_to = 7
 		value = driver.find_element_by_xpath("//*[@id='batting_value']").get_attribute('outerHTML')
-		got_to = 8
 
 	driver.execute_script("window.stop();")
 
-	got_to = 9
 	driver.stop_client()
 	driver.close()
 
-	got_to = 10
 
 	standard = pd.read_html(standard)
-	got_to = 11
 	value = pd.read_html(value)
-	got_to = 12
 
 
 	standard = standard[0]
-	got_to = 13
 	value = value[0]
-	got_to = 14
 
 	'''check to ensure that the player has stats for the year from which the salary was scraped, used as
 	one of the checks to ensure it is the correct player'''
 	if str(year) not in standard.Year.values:
 		return None
 
-	got_to = 15
 
 	standard_unnamed_cols = [s for s in list(standard) if "Unnamed" in s]
-	got_to = 16
 	value_unnamed_cols = [s for s in list(value) if "Unnamed" in s]
-	got_to = 17
 
 	standard.drop(standard_unnamed_cols, axis=1, inplace=True)
-	got_to = 18
 	value.drop(value_unnamed_cols, axis=1, inplace=True)
-	got_to = 19
 
-	print(got_to)
 
 	return standard, value
 
@@ -209,7 +185,7 @@ def scrape_data(players_csv_path, salary_csv_path, bbr_data_csv_path, pitchers=F
 
 
 	for iteration in range(3):
-		print(iteration)
+		print('Iteration: ' + str(iteration))
 
 		#iterates through each row in the joined dataframe, taking the year, age, and name value out of each row to input into the look_up_function
 		for salary_index, salary_row in joined.iterrows():
@@ -353,4 +329,4 @@ def scrape_data(players_csv_path, salary_csv_path, bbr_data_csv_path, pitchers=F
 	print('')
 
 scrape_data('players.csv','batters.csv','batters_bbr.csv',pitchers=False,first_last=True)
-# scrape_data('players.csv','pitchers.csv','pitchers_bbr.csv',pitchers=True,first_last=True)
+scrape_data('players.csv','pitchers.csv','pitchers_bbr.csv',pitchers=True,first_last=True)
