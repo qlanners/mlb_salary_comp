@@ -24,6 +24,7 @@ import math
 import pandas as pd
 import pickle
 import time
+import sys
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
@@ -154,11 +155,13 @@ scrape_data:
 		which are a summary of the players whose statistics were unable to be scraped using the rather hack way that
 		URLs where created with which to load their stats page in bbr.
 '''
-def scrape_data(players_csv_path, salary_csv_path, bbr_data_csv_path, pitchers=False, first_last=True):
+def scrape_data(players_csv_path, salary_csv_path, bbr_data_csv_path, start_year, end_year, pitchers=False, first_last=True, players_done_list=None):
 	
 	#creates datafames for player and salary data
 	players = pd.read_csv(players_csv_path)
 	salaries = pd.read_csv(salary_csv_path)
+
+	salaries = salaries.loc[salaries['year'].isin(list(range(int(start_year),int(end_year))))]
 	
 	#left join the tables with salares on left
 	joined = salaries.merge(players, on='key', how='left')
@@ -169,7 +172,8 @@ def scrape_data(players_csv_path, salary_csv_path, bbr_data_csv_path, pitchers=F
 
 	#list of the leagues from which we desire to scrape information. Used to avoid scrapping stats from A,AA,AAA ball
 	leagues = ['AL','NL','MLB']
-	positions = {'1':['P','CL','RP','RP/CL','SP'],'2':'C','3':'1B','4':'2B','5':'3B','6':'SS','7':['LF','OF'],'8':['CF','OF'],'9':['RF','OF'],'D':'DH'}
+	# positions = {'1':['P','CL','RP','RP/CL','SP'],'2':'C','3':'1B','4':'2B','5':'3B','6':'SS','7':['LF','OF'],'8':['CF','OF'],'9':['RF','OF'],'D':'DH'}
+	positions = {'1':['P','CL','RP','RP/CL','SP'],'2':['C'],'3':['1B'],'4':['2B'],'5':['3B'],'6':['SS'],'7':['LF','OF'],'8':['CF','OF'],'9':['RF','OF'],'D':['DH']}
 
 
 	#empty datafame which will we add bbr_data salary and stat data from bbr
@@ -178,146 +182,163 @@ def scrape_data(players_csv_path, salary_csv_path, bbr_data_csv_path, pitchers=F
 	start_time = time.time()
 
 	#used to track the players which the script fails to join data on
-	missed_players = list()
-	missed_players_keys = list()
-	misses = 0
-	players_done = []
+	if players_done_list:
+		with open(players_done_list, 'rb') as f:
+			all_parts = pickle.load(f)
+			players_done = all_parts[0]
+			missed_players = all_parts[1]
+			missed_players_keys = all_parts[2]
+			misses = all_parts[3]
+	else:
+		players_done = []
+		missed_players = list()
+		missed_players_keys = list()
+		misses = 0		
 
 
-	for iteration in range(3):
-		print('Iteration: ' + str(iteration))
-
-		#iterates through each row in the joined dataframe, taking the year, age, and name value out of each row to input into the look_up_function
-		for salary_index, salary_row in joined.iterrows():
+	#iterates through each row in the joined dataframe, taking the year, age, and name value out of each row to input into the look_up_function
+	for salary_index, salary_row in joined.iterrows():
+		
+		#checks to see if this player has already hade his stats scraped, if so, skip player
+		if salary_row['key'] not in players_done:
+			# got_to = 2
+			year = str(salary_row['year']).split('.')[0]
+			age = int(salary_row['age'])
+			position = salary_row['position']
+			name_parts = str(salary_row['name']).replace('.','').replace("'","").lower().split()
+			name_parts_check = str(salary_row['name']).replace("'","").lower().split()
 			
-			#checks to see if this player has already hade his stats scraped, if so, skip player
-			if salary_row['key'] not in players_done:
-				year = str(salary_row['year']).split('.')[0]
-				age = int(salary_row['age'])
-				position = salary_row['position']
-				name_parts = str(salary_row['name']).replace('.','').replace("'","").lower().split()
-				name_parts_check = str(salary_row['name']).replace("'","").lower().split()
+			#used to deal with players that may have multiple last names/two parts to last name (ex. 'Abel De Los Santos')
+			if first_last:
+				if len(name_parts) == 2:
+					name = name_parts[1][:5]+name_parts[0][:2]
+					name_check = name_parts_check[1][:5]+name_parts_check[0][:2]
+				if len(name_parts) == 3:
+					name = name_parts[1][:5] + name_parts[2][:(5-len(name_parts[1][:5]))] + name_parts[0][:2]
+					name_check = name_parts_check[1][:5] + name_parts_check[2][:(5-len(name_parts_check[1][:5]))] + name_parts_check[0][:2]
 				
-				#used to deal with players that may have multiple last names/two parts to last name (ex. 'Abel De Los Santos')
-				if first_last:
-					if len(name_parts) == 2:
-						name = name_parts[1][:5]+name_parts[0][:2]
-						name_check = name_parts_check[1][:5]+name_parts_check[0][:2]
-					if len(name_parts) == 3:
-						name = name_parts[1][:5] + name_parts[2][:(5-len(name_parts[1][:5]))] + name_parts[0][:2]
-						name_check = name_parts_check[1][:5] + name_parts_check[2][:(5-len(name_parts_check[1][:5]))] + name_parts_check[0][:2]
-					
-				else:
-					if len(name_parts) == 2:
-						name = name_parts[0][:5]+name_parts[1][:2]
-						name_check = name_parts_check[0][:5]+name_parts_check[1][:2]
-					if len(name_parts) == 3:
-						name = name_parts[0][:5] + name_parts[1][:(5-len(name_parts[0][:5]))] + name_parts[2][:2]
-						name_check = name_parts_check[0][:5] + name_parts_check[1][:(5-len(name_parts_check[0][:5]))] + name_parts_check[2][:2]
+			else:
+				if len(name_parts) == 2:
+					name = name_parts[0][:5]+name_parts[1][:2]
+					name_check = name_parts_check[0][:5]+name_parts_check[1][:2]
+				if len(name_parts) == 3:
+					name = name_parts[0][:5] + name_parts[1][:(5-len(name_parts[0][:5]))] + name_parts[2][:2]
+					name_check = name_parts_check[0][:5] + name_parts_check[1][:(5-len(name_parts_check[0][:5]))] + name_parts_check[2][:2]
+			
+			
+
+			'''
+			these numbers are inputted to the look_up_function. The first time through, 01 is inputted to create an id with [name]01. If
+			this combination doesnt work, then the second time through 02 is inputted into the look_up_function, creating an id with [name]02
+			and the loop continues like this, trying up to the id [name]11. This is used to deal with the fact that bbr makes player ids based
+			off of a name/number combo, where they simply count up starting at 01 as player names are duplicated. 11 was chosen, as that was the
+			highest number that was encountered. 
+
+			***To shorten the duration of the code, feel free to shorten this list. However, be aware you may miss a 
+			few more players that otherwise would have been scraped.***
+			'''
+			numbers = ['01','02','03','04','05','06','07','08','09','10','11']
+			
+			count = 0
+			# while count <= 10:
+			while count <= 3:
+				try:
+					# got_to = 3
+					# got_to = 0
+					if count == 3:
+						# got_to = 4
+						standard, value = search_player(str(salary_row['name']),pitcher=pitchers)
+					else:
+						# got_to = 5
+						standard, value = look_up_function(name,year,numbers[count],pitcher=pitchers)
+					# got_to = 1
+					#variables created as checks to ensure this is the appropriate player (to handle players with duplicate names)
+					verify_player_row = standard.loc[standard['Year'] == str(year)]
+					possible_ages = [str(age-1),str(age),str(age+1)]
+					if not pitchers:
+						bbr_positions = list(chain.from_iterable([list(i.replace("*","").replace("/","").replace(".0","")) for i in verify_player_row['Pos'].apply(str).values[verify_player_row['Pos'].notnull()]]))
+						bbr_positions = list(chain.from_iterable([positions[i] for i in bbr_positions]))
+					else:
+						bbr_positions = positions['1']
+					# got_to = 6
+					if str(int(verify_player_row['Age'].values[0])) in possible_ages or position in bbr_positions:
+						standard.loc[standard['Lg'].isin(leagues)]
+						standard = standard.loc[standard['Lg'].isin(leagues)]
+						value = value.loc[value['Lg'].isin(leagues)]
+						standard['join_key_y'] = standard['Year'] + standard['Tm']
+						value['join_key_y'] = value['Year'] + value['Tm']
+						total_stats = standard.merge(value, on='join_key_y', how='left', suffixes=('', '_y'))
+						total_stats['key'] = salary_row['key']
+						total_stats.drop(list(total_stats.filter(regex = '_y')), axis = 1, inplace = True)
+						#for first player scraped, label the columns of the database
+						if bbr_data.shape[1] < 20:
+							all_headers = list(total_stats)
+							bbr_data = bbr_data.reindex(columns=all_headers)
+							bbr_data = bbr_data.astype('object')
+						
+						# got_to = 7
+						bbr_data = bbr_data.append(total_stats, ignore_index=True)
+						# got_to = 8
+						players_done.append(salary_row['key'])
+						if salary_row['name']+' '+name in missed_players:
+							misses_fixed = missed_players.count(salary_row['name']+' '+name)
+							missed_players = [player for player in missed_players if player != salary_row['name']+' '+name]
+							missed_players_keys.remove(salary_row['key'])
+							misses -= misses_fixed
+
+						#if all of the above code executed, count is set to a number greater than 10 to exit the loop for this player
+						count = 21
+
+					#if url lookup worked for this player ID, but the page didn't match the current player, try again using next number
+					else:
+						count += 1
 				
-				
+				# if the url lookup didn't work for this player ID, try again using next number
+				except:
+					if count == 10 and name != name_check:
+						name = name_check
+						count =0
+					else:
+						count += 1
 
-				'''
-				these numbers are inputted to the look_up_function. The first time through, 01 is inputted to create an id with [name]01. If
-				this combination doesnt work, then the second time through 02 is inputted into the look_up_function, creating an id with [name]02
-				and the loop continues like this, trying up to the id [name]11. This is used to deal with the fact that bbr makes player ids based
-				off of a name/number combo, where they simply count up starting at 01 as player names are duplicated. 11 was chosen, as that was the
-				highest number that was encountered. 
+			#if the player information could not be scraped for ID number 01-11, then print name and add to missed players list
+			if count > 3 and count != 21:
+				# print('Got to: '+str(got_to))
+				print('{full_name} {id} {year}'.format(full_name=salary_row['name'], id=name, year=year))
+				missed_players.append(salary_row['name']+' '+name)
+				if salary_row['key'] not in missed_players_keys:
+					missed_players_keys.append(salary_row['key'])
+				misses += 1
 
-				***To shorten the duration of the code, feel free to shorten this list. However, be aware you may miss a 
-				few more players that otherwise would have been scraped.***
-				'''
-				numbers = ['01','02','03','04','05','06','07','08','09','10','11']
-				
-				count = 0
-				# while count <= 10:
-				while count <= 3:
-					try:
-						# got_to = 0
-						if iteration == 2:
-							standard, value = search_player(str(salary_row['name']),pitcher=pitchers)
-						else:
-							standard, value = look_up_function(name,year,numbers[count],pitcher=pitchers)
-						# got_to = 1
-						#variables created as checks to ensure this is the appropriate player (to handle players with duplicate names)
-						verify_player_row = standard.loc[standard['Year'] == str(year)]
-						possible_ages = [str(age-1),str(age),str(age+1)]
-						if not pitchers:
-							bbr_positions = list(chain.from_iterable([list(i.replace("*","").replace("/","")) for i in verify_player_row['Pos'].values[verify_player_row['Pos'].notnull()]]))
-							bbr_positions = list(chain.from_iterable([positions[i] for i in bbr_positions]))
-						else:
-							bbr_positions = positions['1']
-						if str(int(verify_player_row['Age'].values[0])) in possible_ages or position in bbr_positions:
-							standard.loc[standard['Lg'].isin(leagues)]
-							standard = standard.loc[standard['Lg'].isin(leagues)]
-							value = value.loc[value['Lg'].isin(leagues)]
-							standard['join_key_y'] = standard['Year'] + standard['Tm']
-							value['join_key_y'] = value['Year'] + value['Tm']
-							total_stats = standard.merge(value, on='join_key_y', how='left', suffixes=('', '_y'))
-							total_stats['key'] = salary_row['key']
-							total_stats.drop(list(total_stats.filter(regex = '_y')), axis = 1, inplace = True)
-							#for first player scraped, label the columns of the database
-							if bbr_data.shape[1] < 20:
-								all_headers = list(total_stats)
-								bbr_data = bbr_data.reindex(columns=all_headers)
-								bbr_data = bbr_data.astype('object')
-							
-							bbr_data = bbr_data.append(total_stats, ignore_index=True)
-
-							players_done.append(salary_row['key'])
-							if salary_row['name']+' '+name in missed_players:
-								misses_fixed = missed_players.count(salary_row['name']+' '+name)
-								missed_players = [player for player in missed_players if player != salary_row['name']+' '+name]
-								missed_players_keys.remove(salary_row['key'])
-								misses -= misses_fixed
-
-							#if all of the above code executed, count is set to a number greater than 10 to exit the loop for this player
-							count = 21
-
-						#if url lookup worked for this player ID, but the page didn't match the current player, try again using next number
-						else:
-							count += 1
-					
-					# if the url lookup didn't work for this player ID, try again using next number
-					except:
-						if count == 10 and name != name_check:
-							name = name_check
-							count =0
-						else:
-							count += 1
-
-				#if the player information could not be scraped for ID number 01-11, then print name and add to missed players list
-				if count > 10 and count != 21:
-					print('{full_name} {id} {year}'.format(full_name=salary_row['name'], id=name, year=year))
-					missed_players.append(salary_row['name']+' '+name)
-					if salary_row['key'] not in missed_players_keys:
-						missed_players_keys.append(salary_row['key'])
-					misses += 1
-
-				#print the elapsed time after every 100 analyzed players
-				else:
-					if (salary_index % 100) == 0:
-						print('...'+str(salary_index)+'...')
-						print('Time: {}'.format(as_hours(time.time()-start_time)))
-						print('')
+			#print the elapsed time after every 100 analyzed players
+			else:
+				if (salary_index % 100) == 0:
+					print('BBR Shape')
+					print(bbr_data.shape)
+					print('...'+str(salary_index)+'...')
+					print('Time: {}'.format(as_hours(time.time()-start_time)))
+					print('')
 
 
 	#save the bbr_data table to a csv in the current directory
-	bbr_data.to_csv(bbr_data_csv_path, index=False)
+	bbr_data.to_csv(bbr_data_csv_path+'_'+start_year+'-'+end_year+'.csv', index=False)
 
 	#print a list of all of the missed players and their keys, along with the number of missed players
 	unique_missed_players = list(dict.fromkeys(missed_players))
 	print('')
 
+	pickle_file = bbr_data_csv_path+'_'+start_year+'_players_done.pickle'
+	with open(pickle_file, 'wb') as file:
+		pickle.dump([players_done,unique_missed_players,missed_players_keys,misses], file)
 	#Dump missing players list to pickle variable to load later in the bbr_missing_players_scraper.py script
-	if pitchers:
-		pickle_file_prefix = 'pitchers'
-	else:
-		pickle_file_prefix = 'batters'
-	with open(pickle_file_prefix+'_players.pickle', 'wb') as file:
-		pickle.dump(unique_missed_players, file)
-	with open(pickle_file_prefix+'_keys.pickle', 'wb') as file:
-		pickle.dump(missed_players_keys, file)	
+	# if pitchers:
+	# 	pickle_file_prefix = 'pitchers'
+	# else:
+	# 	pickle_file_prefix = 'batters'
+	# with open(pickle_file_prefix+'_players.pickle', 'wb') as file:
+	# 	pickle.dump(unique_missed_players, file)
+	# with open(pickle_file_prefix+'_keys.pickle', 'wb') as file:
+	# 	pickle.dump(missed_players_keys, file)	
 
 	print(unique_missed_players)
 	print(missed_players_keys)
@@ -328,5 +349,15 @@ def scrape_data(players_csv_path, salary_csv_path, bbr_data_csv_path, pitchers=F
 	print('')
 	print('')
 
-scrape_data('players.csv','batters.csv','batters_bbr.csv',pitchers=False,first_last=True)
-scrape_data('players.csv','pitchers.csv','pitchers_bbr.csv',pitchers=True,first_last=True)
+player_type = sys.argv[1]
+start_year = sys.argv[2]
+end_year = str(int(start_year)+1)
+pickle_file = sys.argv[3]
+if pickle_file == 'None':
+	pickle_file = None
+
+if player_type == 'batters':
+	scrape_data('players.csv','batters.csv','batters_bbr',start_year=start_year,end_year=end_year,pitchers=False,first_last=True,players_done_list=pickle_file)
+
+if player_type == 'pitchers':
+	scrape_data('players.csv','pitchers.csv','pitchers_bbr',start_year=start_year,end_year=end_year,pitchers=True,first_last=True,players_done_list=pickle_file)

@@ -17,6 +17,9 @@ import all packages.
 	-pandas used for dataframe
 '''
 import pandas as pd
+import os
+import glob
+import sys
 
 
 '''
@@ -30,8 +33,18 @@ remove_multiple_teams:
 		players who played for multiple teams in a year to create a single row of
 		player stats for each year
 '''
-def remove_multiple_teams(bbr_data_csv, pitchers=False):
-	bbr_data = pd.read_csv(bbr_data_csv)
+def remove_multiple_teams(bbr_datatype, pitchers=False):
+	if bbr_datatype == 'batters':
+		csvs = glob.glob('batters_bbr*.csv')
+	if bbr_datatype == 'pitchers':
+		csvs = glob.glob('pitchers_bbr*.csv')
+	print(csvs)
+		
+
+	bbr_data = pd.concat([pd.read_csv(i) for i in csvs if os.stat(i).st_size > 2])
+
+	bbr_data=bbr_data.reset_index(drop=True)
+
 	bbr_data[["Year", "key"]].apply(pd.to_numeric)
 
 	
@@ -96,16 +109,17 @@ def remove_multiple_teams(bbr_data_csv, pitchers=False):
 
 	bbr_data.drop(rows_to_drop, inplace=True)
 
-
-	csv_name, period, extension = bbr_data_csv.partition('.')
-
 	
 	'''creates a new csv file and saved to working directory. Used as a way to not
 	overwrite the inputted file in case you wish to reference it later'''
-	bbr_data.to_csv(csv_name+'_TOTs_removed.csv', index=False)
+	bbr_data.to_csv(bbr_datatype+'_TOTs_removed.csv', index=False)
 
+player_type = sys.argv[1]
 
-remove_multiple_teams('batters_bbr.csv')
-print('Batters Done')
-remove_multiple_teams('pitchers_bbr.csv',pitchers=True)
-print('Pitchers Done')
+if player_type == 'batters':
+	remove_multiple_teams('batters')
+	print('Batters Done')
+if player_type == 'pitchers':
+	remove_multiple_teams('pitchers',pitchers=True)
+	print('Pitchers Done')
+

@@ -58,6 +58,7 @@ pip3 install selenium
 pip3 install pandas
 pip3 install beautifulsoup4
 pip3 install lxml
+pip3 install glob3
 
 echo "environment setup complete"
 
@@ -67,6 +68,7 @@ cd baseball_scraping
 
 #create tmu session so you can close your terminal while code runs
 echo "starting tmux session 'main'"
-tmux new-session -d -s main \; send-keys "sh tmux.sh" Enter
+tmux new-session -d -s main \; send-keys "sh tmux_batters.sh" Enter
+# tmux new-session -d -s main \; send-keys "sh tmux_pitchers.sh" Enter
 
 

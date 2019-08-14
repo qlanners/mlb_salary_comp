@@ -51,7 +51,7 @@ def search_player(player_name, pitcher=False):
 	driver = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver', chrome_options = option, desired_capabilities = capa)
 	
 	#have the chromedriver wait 10 seconds if page isn't instantly located
-	wait = WebDriverWait(driver, 10)
+	wait = WebDriverWait(driver, 30)
 
 	driver.get('https://www.baseball-reference.com/')
 
@@ -63,6 +63,11 @@ def search_player(player_name, pitcher=False):
 
 	stuff.send_keys(Keys.RETURN)
 
+	if '/search/' in driver.current_url:
+		wait.until(EC.presence_of_element_located((By.XPATH, "//*[@id='players']/div[1]/div[1]/a")))
+		button = driver.find_element_by_xpath("//*[@id='players']/div[1]/div[1]/a")
+		button.click()
+	
 	if pitcher:
 		wait.until(EC.presence_of_element_located((By.XPATH, "//*[@id='pitching_value']")))
 	else:
