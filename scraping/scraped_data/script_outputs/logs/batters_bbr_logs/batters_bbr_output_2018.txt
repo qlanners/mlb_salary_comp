@@ -1,0 +1,16 @@
+Number of player salaries to match to batting statistics: 496
+Daniel Murphy murphda 2018
+Jonathan Davis davisjo 2018
+Mason Williams willima 2018
+Tom Murphy murphto 2018
+Jose Martinez martijo 2018
+Brian Anderson anderbr 2018
+
+['Kyle Waldrop waldrky', 'Daniel Robertson roberda', 'Brian Anderson anderbr', 'Reese Havens havenre', 'Tom Murphy murphto', 'Alfredo Silverio silveal', 'Julio Morban morbaju', 'Oscar Tejeda tejedos', 'Josh Rodriguez rodrijo', 'J.B. Shuck shuckjb', 'Miguel Gonzalez gonzami', 'Mason Williams willima', 'Reegie Corona coronre', 'Jose Martinez martijo', 'Hak-Ju Lee leeha', 'Tyson Gillies gillity', 'Jason Bay bayja', 'Alfredo Gonzalez gonzaal', 'Gustavo Nunez nunezgu', 'Cole De Vries devrico', 'Angel Villalona villaan', 'Colin Curtis curtico', 'Jermaine Mitchell mitchje', 'Daniel Murphy murphda', 'Jared Goedert goedeja', 'Jonathan Davis davisjo', 'Henry Rodriguez rodrihe', 'Tony Pena Jr. penajto', 'Rob Johnson johnsro', 'Matt E. Young eyounma']
+[691, 5301, 418, 7460, 7624, 8682, 7658, 5366, 7653, 7639, 8691, 11527, 9413, 10668, 8541, 11518, 11459, 11521, 11576, 16041, 14073, 16037, 11766, 16005, 14136, 18325, 18331, 18505, 24439, 28024]
+30 unique players missed
+
+Salary years without stats: 62 of 496
+Time: 0h 9m 55s
+
+

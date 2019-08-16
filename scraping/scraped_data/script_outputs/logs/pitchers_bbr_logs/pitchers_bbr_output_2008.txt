@@ -1,0 +1,25 @@
+Number of player salaries to match to pitching statistics: 317
+Joe Smith smithjo 2008
+Andrew Brackman brackan 2008
+BBR Shape
+(213, 51)
+...100...
+Time: 0h 7m 7s
+
+Mike Zagurski zagurmi 2008
+Jim Hoey hoeyji 2008
+Troy Patton pattotr 2008
+BBR Shape
+(360, 51)
+...200...
+Time: 0h 11m 52s
+
+
+['Andrew Brackman brackan', 'Troy Patton pattotr', 'Jim Hoey hoeyji', 'Mike Zagurski zagurmi', 'Joe Smith smithjo']
+[564, 573, 658, 59, 69]
+5 unique players missed
+
+Salary years without stats: 7 of 317
+Time: 0h 12m 49s
+
+

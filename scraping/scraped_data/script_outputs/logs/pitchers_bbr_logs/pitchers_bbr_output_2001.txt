@@ -1,0 +1,10 @@
+Number of player salaries to match to pitching statistics: 36
+
+[]
+[]
+0 unique players missed
+
+Salary years without stats: 0 of 36
+Time: 0h 0m 59s
+
+

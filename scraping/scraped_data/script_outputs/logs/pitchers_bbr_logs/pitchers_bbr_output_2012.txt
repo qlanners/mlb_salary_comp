@@ -1,0 +1,34 @@
+Number of player salaries to match to pitching statistics: 678
+Danny Hultzen hultzda 2012
+Cesar Cabral cabrace 2012
+Brad Meyers meyerbr 2012
+Blake Wood woodbl 2012
+Will Smith smithwi 2012
+Justin Wilson wilsoju 2012
+Juan Ramirez ramirju 2012
+Alan Farina farinal 2012
+Kyle Lotzkar lotzkky 2012
+Brett Anderson anderbr 2012
+Alex Castellanos casteal 2012
+Santo Manzanillo manzasa 2012
+Cody Scarpetta scarpco 2012
+Tyler Colvin colvity 2012
+Will Harris harriwi 2012
+Matt Hoffman hoffmma 2012
+Tyler Stohr stohrty 2012
+Joe Kelly kellyjo 2012
+Adam Reifer reifead 2012
+Joe Smith smithjo 2012
+Fabio Martinez martifa 2012
+Anthony Carter cartean 2012
+Nestor Molina molinne 2012
+Robert Fish fishro 2012
+
+['Tyler Colvin colvity', 'Tyler Stohr stohrty', 'Jason Bugler bugleja', 'Henry Barrera barrehe', 'Cody Scarpetta scarpco', 'Brad Meyers meyerbr', 'Anthony Carter cartean', 'Blake Wood woodbl', 'Alex Castellanos casteal', 'Matt Hoffman hoffmma', 'Joe Kelly kellyjo', 'Juan Ramirez ramirju', 'Danny Hultzen hultzda', 'Zach Miner minerza', 'Santo Manzanillo manzasa', 'Joe Smith smithjo', 'Brett Anderson anderbr', 'Alan Farina farinal', 'Kevin Hart hartke', 'Fabio Martinez martifa', 'Kyle Lotzkar lotzkky', 'Robert Fish fishro', 'Justin Wilson wilsoju', 'Adam Reifer reifead', 'Will Smith smithwi', 'Cesar Cabral cabrace', 'Nestor Molina molinne', 'Will Harris harriwi']
+[564, 7266, 5313, 8698, 295, 11481, 7663, 144, 5268, 9164, 9165, 7426, 10666, 11507, 11512, 10658, 11454, 10697, 11559, 11606, 11599, 11602, 11030, 11477, 11614, 11618, 11622, 9145]
+28 unique players missed
+
+Salary years without stats: 46 of 678
+Time: 1h 2m 6s
+
+

@@ -1,0 +1,25 @@
+Number of player salaries to match to pitching statistics: 537
+Edwin Diaz diazed 2017
+Ricardo Rodriguez rodriri 2017
+Joe Kelly kellyjo 2017
+Eduardo Rodriguez rodried 2017
+Felipe Vazquez vazqufe 2017
+BBR Shape
+(163, 51)
+...200...
+Time: 0h 13m 45s
+
+Justin Wilson wilsoju 2017
+Brett Anderson anderbr 2017
+Carlos Martinez martica 2017
+Joe Smith smithjo 2017
+Will Harris harriwi 2017
+
+['Russell Brewer breweru', 'Nestor Molina molinne', 'Matt Hoffman hoffmma', 'Juan Ramirez ramirju', 'Ryan Brasier brasiry', 'Cody Scarpetta scarpco', 'Robert Fish fishro', 'Brian Moran moranbr', 'Anthony Fernandez fernaan', 'Adam Reifer reifead', 'Will Harris harriwi', 'Josh Smith smithjo', 'Joe Kelly kellyjo', 'Anthony Carter cartean', 'Santo Manzanillo manzasa', 'James Jones jonesja', 'Henry Barrera barrehe', 'Brett Anderson anderbr', 'Brad Meyers meyerbr', 'Jose Diaz diazjo', 'Felipe Vazquez vazqufe', 'Kevin Hart hartke', 'Tyler Stohr stohrty', 'Joe Smith smithjo', 'Rafael Martin martira', 'Logan Bawcom bawcolo', 'Edwin Diaz diazed', 'Fabio Martinez martifa', 'Eduardo Rodriguez rodried', 'Carlos Martinez martica', 'Will Smith smithwi', 'Alan Farina farinal', 'Jason Bugler bugleja', 'Alex Castellanos casteal', 'Tyler Colvin colvity', 'Anthony Gose gosean', 'Justin Wilson wilsoju', 'Ricardo Rodriguez rodriri', 'Danny Hultzen hultzda', 'Kyle Lotzkar lotzkky']
+[564, 7266, 5313, 8698, 11481, 7663, 144, 5268, 9165, 10666, 11507, 11512, 10658, 11454, 10697, 11559, 11606, 11599, 11602, 11030, 11477, 11614, 11618, 11622, 9145, 11464, 5245, 16034, 16036, 14395, 12089, 14217, 14091, 13984, 16020, 16659, 16653, 18105, 19906, 24346]
+40 unique players missed
+
+Salary years without stats: 104 of 537
+Time: 0h 29m 46s
+
+

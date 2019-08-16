@@ -1,0 +1,12 @@
+Number of player salaries to match to batting statistics: 184
+Jason Bay bayja 2005
+Jason Kubel kubelja 2005
+
+['Jason Kubel kubelja', 'Jason Bay bayja']
+[691, 525]
+2 unique players missed
+
+Salary years without stats: 3 of 184
+Time: 0h 7m 29s
+
+

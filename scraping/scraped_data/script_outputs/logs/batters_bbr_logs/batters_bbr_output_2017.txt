@@ -1,0 +1,25 @@
+Number of player salaries to match to batting statistics: 519
+Daniel Robertson roberda 2017
+BBR Shape
+(52, 47)
+...100...
+Time: 0h 1m 7s
+
+Daniel Murphy murphda 2017
+BBR Shape
+(159, 47)
+...300...
+Time: 0h 4m 18s
+
+Tom Murphy murphto 2017
+Jose Martinez martijo 2017
+Brian Anderson anderbr 2017
+
+['Angel Villalona villaan', 'Colin Curtis curtico', 'Jose Martinez martijo', 'J.B. Shuck shuckjb', 'Jason Bay bayja', 'Alfredo Silverio silveal', 'Josh Rodriguez rodrijo', 'Kyle Waldrop waldrky', 'Jermaine Mitchell mitchje', 'Jared Goedert goedeja', 'Julio Morban morbaju', 'Henry Rodriguez rodrihe', 'Hak-Ju Lee leeha', 'Gustavo Nunez nunezgu', 'Tyson Gillies gillity', 'Brian Anderson anderbr', 'Miguel Gonzalez gonzami', 'Matt E. Young eyounma', 'Daniel Murphy murphda', 'Rob Johnson johnsro', 'Tom Murphy murphto', 'Mason Williams willima', 'Daniel Robertson roberda', 'Alfredo Gonzalez gonzaal', 'Reese Havens havenre', 'Cole De Vries devrico', 'Oscar Tejeda tejedos', 'Reegie Corona coronre', 'Tony Pena Jr. penajto']
+[691, 5301, 418, 7460, 7624, 8682, 7658, 5366, 7653, 7639, 8691, 11527, 9413, 10668, 8541, 11518, 11459, 11521, 11576, 16041, 14073, 16037, 11766, 16005, 14136, 18325, 18331, 18505, 24439]
+29 unique players missed
+
+Salary years without stats: 56 of 519
+Time: 0h 7m 21s
+
+

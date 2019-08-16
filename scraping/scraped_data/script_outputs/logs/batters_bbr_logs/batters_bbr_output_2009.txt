@@ -1,0 +1,18 @@
+Number of player salaries to match to batting statistics: 409
+Daniel Murphy murphda 2009
+Tony Pena Jr. penajto 2009
+Jason Bay bayja 2009
+BBR Shape
+(395, 47)
+...200...
+Time: 0h 7m 53s
+
+
+['Jason Bay bayja', 'Daniel Murphy murphda', 'Tony Pena Jr. penajto']
+[691, 5301, 418]
+3 unique players missed
+
+Salary years without stats: 8 of 409
+Time: 0h 10m 27s
+
+

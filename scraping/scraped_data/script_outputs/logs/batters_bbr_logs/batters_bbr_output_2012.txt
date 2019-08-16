@@ -1,0 +1,23 @@
+Number of player salaries to match to batting statistics: 610
+Jason Bay bayja 2012
+Daniel Murphy murphda 2012
+Reese Havens havenre 2012
+Rob Johnson johnsro 2012
+Gustavo Nunez nunezgu 2012
+Cole De Vries devrico 2012
+Kyle Waldrop waldrky 2012
+Tyson Gillies gillity 2012
+Henry Rodriguez rodrihe 2012
+Jermaine Mitchell mitchje 2012
+Alfredo Silverio silveal 2012
+J.B. Shuck shuckjb 2012
+Angel Villalona villaan 2012
+
+['Daniel Murphy murphda', 'Tyson Gillies gillity', 'Cole De Vries devrico', 'Kyle Waldrop waldrky', 'Rob Johnson johnsro', 'Colin Curtis curtico', 'Reese Havens havenre', 'Reegie Corona coronre', 'J.B. Shuck shuckjb', 'Angel Villalona villaan', 'Josh Rodriguez rodrijo', 'Henry Rodriguez rodrihe', 'Jason Bay bayja', 'Alfredo Silverio silveal', 'Matt E. Young eyounma', 'Tony Pena Jr. penajto', 'Jared Goedert goedeja', 'Oscar Tejeda tejedos', 'Gustavo Nunez nunezgu', 'Jermaine Mitchell mitchje']
+[691, 5301, 418, 7460, 7624, 8682, 7658, 5366, 7653, 7639, 8691, 11527, 9413, 10668, 8541, 11518, 11459, 11521, 11576, 16041]
+20 unique players missed
+
+Salary years without stats: 33 of 610
+Time: 0h 23m 43s
+
+

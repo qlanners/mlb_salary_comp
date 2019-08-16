@@ -1,0 +1,15 @@
+Number of player salaries to match to batting statistics: 37
+BBR Shape
+(22, 47)
+...0...
+Time: 0h 0m 3s
+
+
+[]
+[]
+0 unique players missed
+
+Salary years without stats: 0 of 37
+Time: 0h 4m 33s
+
+
