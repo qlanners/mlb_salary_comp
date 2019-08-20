@@ -1,0 +1,13 @@
+Number of player salaries to match to pitching statistics: 256
+Joe Smith smithjo 2007
+Andrew Brackman brackan 2007
+Rick Porcello porceri 2007
+
+['Andrew Brackman brackan', 'Joe Smith smithjo', 'Rick Porcello porceri']
+[564, 573, 5235]
+3 unique players missed
+
+Salary years without stats: 3 of 256
+Time: 0h 10m 22s
+
+

@@ -1,0 +1,16 @@
+Number of player salaries to match to batting statistics: 221
+Jason Bay bayja 2006
+BBR Shape
+(516, 47)
+...200...
+Time: 0h 3m 37s
+
+
+['Jason Bay bayja']
+[691]
+1 unique players missed
+
+Salary years without stats: 3 of 221
+Time: 0h 3m 55s
+
+

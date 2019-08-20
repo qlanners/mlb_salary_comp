@@ -1,0 +1,28 @@
+Number of player salaries to match to pitching statistics: 411
+Eric Hurley hurleer 2009
+Tyler Colvin colvity 2009
+Stephen Strasburg strasst 2009
+BBR Shape
+(323, 51)
+...200...
+Time: 0h 8m 11s
+
+Mark Worrell worrema 2009
+Joey Devine devinjo 2009
+Brett Anderson anderbr 2009
+Cody Scarpetta scarpco 2009
+Joe Smith smithjo 2009
+BBR Shape
+(736, 51)
+...400...
+Time: 0h 26m 37s
+
+
+['Stephen Strasburg strasst', 'Eric Hurley hurleer', 'Cody Scarpetta scarpco', 'Brett Anderson anderbr', 'Tyler Colvin colvity', 'Joey Devine devinjo', 'Joe Smith smithjo', 'Mark Worrell worrema']
+[564, 5401, 7266, 6865, 5351, 5324, 5313, 8698]
+8 unique players missed
+
+Salary years without stats: 11 of 411
+Time: 0h 26m 50s
+
+

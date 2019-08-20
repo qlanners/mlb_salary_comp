@@ -1,0 +1,12 @@
+Number of player salaries to match to batting statistics: 333
+Jason Bay bayja 2008
+Tony Abreu abreuto 2008
+
+['Tony Abreu abreuto', 'Jason Bay bayja']
+[691, 457]
+2 unique players missed
+
+Salary years without stats: 6 of 333
+Time: 0h 5m 35s
+
+

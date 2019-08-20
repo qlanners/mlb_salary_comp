@@ -1,0 +1,40 @@
+Number of player salaries to match to pitching statistics: 561
+Logan Bawcom bawcolo 2014
+Anthony Fernandez fernaan 2014
+James Jones jonesja 2014
+BBR Shape
+(131, 51)
+...100...
+Time: 0h 8m 44s
+
+Joe Kelly kellyjo 2014
+Justin Wilson wilsoju 2014
+Joe Smith smithjo 2014
+Ryan Brasier brasiry 2014
+Brian Moran moranbr 2014
+BBR Shape
+(187, 51)
+...200...
+Time: 0h 21m 2s
+
+Anthony Gose gosean 2014
+Jose Diaz diazjo 2014
+BBR Shape
+(262, 51)
+...300...
+Time: 0h 25m 45s
+
+Will Smith smithwi 2014
+Brett Anderson anderbr 2014
+Carlos Martinez martica 2014
+Will Harris harriwi 2014
+Tyler Colvin colvity 2014
+
+['Anthony Gose gosean', 'Matt Hoffman hoffmma', 'Tyler Stohr stohrty', 'Tyler Colvin colvity', 'Brian Moran moranbr', 'Carlos Martinez martica', 'Joe Kelly kellyjo', 'Will Harris harriwi', 'Logan Bawcom bawcolo', 'Kevin Hart hartke', 'Jason Bugler bugleja', 'Adam Reifer reifead', 'Danny Hultzen hultzda', 'Fabio Martinez martifa', 'Anthony Fernandez fernaan', 'Santo Manzanillo manzasa', 'Casey Kelly kellyca', 'Henry Barrera barrehe', 'Kyle Lotzkar lotzkky', 'Alan Farina farinal', 'Juan Ramirez ramirju', 'Robert Fish fishro', 'Justin Wilson wilsoju', 'Nestor Molina molinne', 'Cody Scarpetta scarpco', 'Anthony Carter cartean', 'James Jones jonesja', 'Brad Meyers meyerbr', 'Joe Smith smithjo', 'Jose Diaz diazjo', 'Brett Anderson anderbr', 'Ryan Brasier brasiry', 'Alex Castellanos casteal', 'Will Smith smithwi']
+[564, 7266, 5313, 8698, 11481, 7663, 144, 5268, 9165, 10666, 11507, 11512, 10658, 11454, 10697, 11559, 11606, 11599, 11602, 11030, 11477, 11614, 11618, 11622, 9145, 11464, 11495, 5245, 16034, 16036, 14395, 12089, 14217, 14091]
+34 unique players missed
+
+Salary years without stats: 69 of 561
+Time: 0h 38m 3s
+
+

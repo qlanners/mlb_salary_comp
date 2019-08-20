@@ -1,0 +1,29 @@
+Number of player salaries to match to pitching statistics: 546
+James Jones jonesja 2015
+Justin Wilson wilsoju 2015
+Joe Kelly kellyjo 2015
+Eduardo Rodriguez rodried 2015
+Joe Smith smithjo 2015
+Felipe Vazquez vazqufe 2015
+Rafael Martin martira 2015
+Jose Diaz diazjo 2015
+Josh Smith smithjo 2015
+Brett Anderson anderbr 2015
+Will Smith smithwi 2015
+Russell Brewer breweru 2015
+Anthony Gose gosean 2015
+BBR Shape
+(531, 51)
+...500...
+Time: 0h 39m 25s
+
+Will Harris harriwi 2015
+
+['Carlos Martinez martica', 'Tyler Stohr stohrty', 'Kevin Hart hartke', 'Adam Reifer reifead', 'Fabio Martinez martifa', 'Logan Bawcom bawcolo', 'Brad Meyers meyerbr', 'Anthony Carter cartean', 'Alan Farina farinal', 'Alex Castellanos casteal', 'Justin Wilson wilsoju', 'Henry Barrera barrehe', 'Brett Anderson anderbr', 'Robert Fish fishro', 'Ryan Brasier brasiry', 'Kyle Lotzkar lotzkky', 'Jose Diaz diazjo', 'Cody Scarpetta scarpco', 'Matt Hoffman hoffmma', 'Rafael Martin martira', 'Nestor Molina molinne', 'Santo Manzanillo manzasa', 'Will Smith smithwi', 'Felipe Vazquez vazqufe', 'Josh Smith smithjo', 'Will Harris harriwi', 'Eduardo Rodriguez rodried', 'Anthony Fernandez fernaan', 'Joe Kelly kellyjo', 'Anthony Gose gosean', 'Russell Brewer breweru', 'James Jones jonesja', 'Juan Ramirez ramirju', 'Brian Moran moranbr', 'Joe Smith smithjo', 'Jason Bugler bugleja', 'Danny Hultzen hultzda', 'Tyler Colvin colvity']
+[564, 7266, 5313, 8698, 11481, 7663, 144, 5268, 9165, 10666, 11507, 11512, 10658, 11454, 10697, 11559, 11606, 11599, 11602, 11030, 11477, 11614, 11618, 11622, 9145, 11464, 5245, 16034, 16036, 14395, 12089, 14217, 14091, 13984, 16020, 16659, 16653, 18105]
+38 unique players missed
+
+Salary years without stats: 82 of 546
+Time: 0h 42m 47s
+
+

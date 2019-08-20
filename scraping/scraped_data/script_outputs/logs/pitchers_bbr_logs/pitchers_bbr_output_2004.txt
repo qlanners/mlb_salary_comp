@@ -1,0 +1,16 @@
+Number of player salaries to match to pitching statistics: 104
+Fernando Rodney rodnefe 2004
+BBR Shape
+(272, 51)
+...100...
+Time: 0h 4m 36s
+
+
+['Fernando Rodney rodnefe', 'Will Ohman ohmanwi']
+[31, 302]
+2 unique players missed
+
+Salary years without stats: 2 of 104
+Time: 0h 4m 42s
+
+

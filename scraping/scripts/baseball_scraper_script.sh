@@ -68,7 +68,7 @@ cd baseball_scraping
 
 #create tmu session so you can close your terminal while code runs
 echo "starting tmux session 'main'"
-tmux new-session -d -s main \; send-keys "sh tmux_batters.sh" Enter
-# tmux new-session -d -s main \; send-keys "sh tmux_pitchers.sh" Enter
+# tmux new-session -d -s main \; send-keys "sh tmux_batters.sh" Enter
+tmux new-session -d -s main \; send-keys "sh tmux_pitchers.sh" Enter
 
 
