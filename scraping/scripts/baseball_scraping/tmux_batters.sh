@@ -1,7 +1,7 @@
 echo "running salary scraper"
 python3 salary_scraper.py > salary_output.txt
 
-END=2018
+END=2019
 pickle_file="None"
 for i in $(seq 2000 $END)
 do
@@ -40,7 +40,4 @@ cd ..
 zip -r batters_output.zip batters_output
 sudo mv batters_output.zip ../
 
-
-#this code is only necessary if being run on google cloud service as to not run
-#up the charge once the code is done. Otherwise can remove.
-sudo shutdown
+tmux new-session -d -s pitchers \; send-keys "sh tmux_pitchers.sh" Enter
