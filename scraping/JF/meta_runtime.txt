@@ -1,0 +1,6 @@
+
+ ++++++++++++++++++++++++++++++++++++++++ END ++++++++++++++++++++++++++++++++++++++++ 
+
+ Elapsed Time:  9 hours, 33 minutes, 8 seconds 
+ Number of players tried: 28147
+ Number of misses: 2
