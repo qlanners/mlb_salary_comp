@@ -27,6 +27,24 @@ NAME_KEY = []
 YEAR = []
 TEAM = []
 
+POSITION = []
+
+TEAM_1 = []
+TEAM_1_GAMES = []
+TEAM_2 = []
+TEAM_2_GAMES = []
+TEAM_3 = []
+TEAM_3_GAMES = []
+TEAM_4 = []
+TEAM_4_GAMES = []
+TEAM_5 = []
+TEAM_5_GAMES = []
+TEAM_6 = []
+TEAM_6_GAMES = []
+#lists of pitching statistics
+GAMES = []
+DAYS_BW_TEAM_GAMES_MEAN = []
+DAYS_BW_TEAM_GAMES_STDEV = []
 
 
 #lists for batting stats
@@ -95,6 +113,7 @@ for year in range(2000,2020):
     soup_L=bs4.BeautifulSoup(res_L.text, 'html.parser')
     body_L = soup_L.find('tbody')
 
+
     teams_urls = []
     for item in body_L.find_all('a', href=True):
         teams_urls.append(item['href'])
@@ -113,16 +132,20 @@ for year in range(2000,2020):
         team = soup_T.find('h1', {'itemprop':'name'}).find_all('span')[1].text
         players_namekeys = []
         names = []
+        positions = []
 
         for item in body.find_all('a', href=True):
             #players_urls.append(item['href'])
             players_namekeys.append(item['href'][11:-6])
             names.append(item.text)
 
+        for item in body.find_all('td', {'data-stat':'pos'}):
+            positions.append(item.text)
+
 
     #start loop for each players
 
-        for namekey, name in zip(players_namekeys, names):
+        for namekey, name, pos in zip(players_namekeys, names, positions):
 
             try_counter += 1
 
@@ -136,6 +159,8 @@ for year in range(2000,2020):
                 soup_PG=bs4.BeautifulSoup(res_PG.text, 'html.parser')
 
                 body = soup_PG.find('tbody')
+                body_TEAMID = body.find_all('td', {'data-stat':'team_ID'})
+                body_GTM = body.find_all('td', {'data-stat':'team_game_num'})
                 body_AB = body.find_all('td', {'data-stat':'AB'})
                 body_H = body.find_all('td', {'data-stat':'H'})
                 body_BB = body.find_all('td', {'data-stat':'BB'})
@@ -149,6 +174,9 @@ for year in range(2000,2020):
                 body_WPA = body.find_all('td', {'data-stat':'wpa_bat'})
                 body_BOP = body.find_all('td', {'data-stat':'batting_order_position'})
 
+                team_id = []
+                gtm = []
+                days_bw_team_games = []
                 atbats = []
                 hits = []
                 baseonballs = []
@@ -168,6 +196,14 @@ for year in range(2000,2020):
 
                 for n in range(len(body_AB)):
 
+                    _team_id = body_TEAMID[n].text
+                    _gtm = int(body_GTM[n].text.split('(')[0])
+
+                    if n == 0:
+                        _days_bw_team_games = _gtm
+                    else:
+                        _days_bw_team_games = _gtm - gtm[-1]
+
                     _ab = int(body_AB[n].text)
                     _h = int(body_H[n].text)
                     _bb = int(body_BB[n].text)
@@ -184,7 +220,9 @@ for year in range(2000,2020):
                     except:
                         _wpa = 0
 
-
+                    team_id.append(_team_id)
+                    gtm.append(_gtm)
+                    days_bw_team_games.append(_days_bw_team_games)
                     atbats.append( _ab )
                     hits.append( _h )
                     baseonballs.append( _bb )
@@ -206,6 +244,8 @@ for year in range(2000,2020):
 
                     batrank.append(br.text)
 
+                team_id_dict = Counter(team_id)
+
                 batrank_dict = Counter(batrank)
                 br1  = batrank_dict['1']  if '1'  in batrank_dict.keys() else 0
                 br2  = batrank_dict['2']  if '2'  in batrank_dict.keys() else 0
@@ -221,6 +261,50 @@ for year in range(2000,2020):
                 NAME_KEY.append(namekey)
                 YEAR.append(year)
                 TEAM.append(team)
+
+                POSITION.append(pos)
+
+
+                TEAM_1.append(list(team_id_dict.keys())[0])
+                TEAM_1_GAMES.append(team_id_dict[list(team_id_dict.keys())[0]])
+                try:
+                    TEAM_2.append(list(team_id_dict.keys())[1])
+                    TEAM_2_GAMES.append(team_id_dict[list(team_id_dict.keys())[1]])
+                except:
+                    TEAM_2.append('NA')
+                    TEAM_2_GAMES.append('NA')
+
+                try:
+                    TEAM_3.append(list(team_id_dict.keys())[2])
+                    TEAM_3_GAMES.append(team_id_dict[list(team_id_dict.keys())[2]])
+                except:
+                    TEAM_3.append('NA')
+                    TEAM_3_GAMES.append('NA')
+
+                try:
+                    TEAM_4.append(list(team_id_dict.keys())[3])
+                    TEAM_4_GAMES.append(team_id_dict[list(team_id_dict.keys())[3]])
+                except:
+                    TEAM_4.append('NA')
+                    TEAM_4_GAMES.append('NA')
+
+                try:
+                    TEAM_5.append(list(team_id_dict.keys())[4])
+                    TEAM_5_GAMES.append(team_id_dict[list(team_id_dict.keys())[4]])
+                except:
+                    TEAM_5.append('NA')
+                    TEAM_5_GAMES.append('NA')
+
+                try:
+                    TEAM_6.append(list(team_id_dict.keys())[5])
+                    TEAM_6_GAMES.append(team_id_dict[list(team_id_dict.keys())[5]])
+                except:
+                    TEAM_6.append('NA')
+                    TEAM_6_GAMES.append('NA')
+
+                GAMES.append(len(body_GTM))
+                DAYS_BW_TEAM_GAMES_MEAN.append(stat.mean(days_bw_team_games))
+                DAYS_BW_TEAM_GAMES_STDEV.append(stat.stdev(days_bw_team_games)  if len(set(days_bw_team_games)) > 1 else 0)
                 BATRANK_MODE.append(_mode(batrank))
                 BATRANK_1.append(br1)
                 BATRANK_2.append(br2)
@@ -271,12 +355,28 @@ for year in range(2000,2020):
                 WPA_MEAN.append(stat.mean(wpa))
                 WPA_STDEV.append(stat.stdev(wpa) if len(set(wpa)) > 1 else 0)
 
+                elapsed_ = perf_counter() - start
+
+                hours   = floor(elapsed_ / 60**2)
+                minutes = floor((elapsed_ - hours*60**2) / 60)
+                seconds = floor(elapsed_ - hours*60**2 -minutes*60)
+
+                print(try_counter, '- success', '- ',team, '- ', year, '- ', name, ' ', pos, ' ', 'Elapsed Time:',  hours, 'hours', minutes, 'minutes', seconds, 'seconds')
 
             except:
 
                 miss_counter += 1
 
-                misses.write(str(miss_counter) + ' - ' + url_PG + '\n')
+
+                misses.write(str(miss_counter) + team + '- ' + year + '- ' + name + ' ' + pos + ' - ' + url_PG + '\n')
+
+                elapsed_ = perf_counter() - start
+
+                hours   = floor(elapsed_ / 60**2)
+                minutes = floor((elapsed_ - hours*60**2) / 60)
+                seconds = floor(elapsed_ - hours*60**2 -minutes*60)
+
+                print(try_counter, '- miss', '- ',team, '- ', year,'- ', name, ' ',pos, ' ', 'Elapsed Time:',  hours, 'hours', minutes, 'minutes', seconds, 'seconds')
 
 misses.close()
 
@@ -289,6 +389,22 @@ data_dict = {
 "NAME_KEY": NAME_KEY,
 "TEAM": TEAM,
 "YEAR": YEAR,
+"POSITION": POSITION,
+"GAMES": GAMES,
+"DAYS_BW_TEAM_GAMES_MEAN": DAYS_BW_TEAM_GAMES_MEAN,
+"DAYS_BW_TEAM_GAMES_STDEV": DAYS_BW_TEAM_GAMES_STDEV,
+"TEAM_1": TEAM_1,
+"TEAM_1_GAMES": TEAM_1_GAMES,
+"TEAM_2": TEAM_2,
+"TEAM_2_GAMES": TEAM_2_GAMES,
+"TEAM_3": TEAM_3,
+"TEAM_3_GAMES": TEAM_3_GAMES,
+"TEAM_4": TEAM_4,
+"TEAM_4_GAMES": TEAM_4_GAMES,
+"TEAM_5": TEAM_5,
+"TEAM_5_GAMES": TEAM_5_GAMES,
+"TEAM_6": TEAM_6,
+"TEAM_6_GAMES": TEAM_6_GAMES,
 "BATRANK_MODE": BATRANK_MODE,
 "BATRANK_1": BATRANK_1,
 "BATRANK_2": BATRANK_2,
@@ -340,18 +456,76 @@ data_dict = {
 "WPA_STDEV": WPA_STDEV
 }
 
-df = pd.DataFrame(data_dict)
+columns =[\
+"NAME",\
+"NAME_KEY",\
+"TEAM",\
+"YEAR",\
+"POSITION",\
+"GAMES",\
+"DAYS_BW_TEAM_GAMES_MEAN",\
+"DAYS_BW_TEAM_GAMES_STDEV",\
+"TEAM_1",\
+"TEAM_1_GAMES",\
+"TEAM_2",\
+"TEAM_2_GAMES",\
+"TEAM_3",\
+"TEAM_3_GAMES",\
+"TEAM_4",\
+"TEAM_4_GAMES",\
+"TEAM_5",\
+"TEAM_5_GAMES",\
+"TEAM_6",\
+"TEAM_6_GAMES",\
+"BATRANK_MODE",\
+"BATRANK_1",\
+"BATRANK_2",\
+"BATRANK_3",\
+"BATRANK_4",\
+"BATRANK_5",\
+"BATRANK_6",\
+"BATRANK_7",\
+"BATRANK_8",\
+"BATRANK_9",\
+"ATBATS",\
+"ATBATS_MEAN",\
+"ATBATS_STDEV",\
+"HITS",\
+"HITS_MEAN",\
+"HITS_STDEV",\
+"BASESONBALLS",\
+"BASESONBALLS_MEAN",\
+"BASESONBALLS_STDEV",\
+"HITBYPITCH",\
+"HITBYPITCH_MEAN",\
+"HITBYPITCH_STDEV",\
+"SINGLES",\
+"SINGLES_MEAN",\
+"SINGLES_STDEV",\
+"DOUBLES",\
+"DOUBLES_MEAN",\
+"DOUBLES_STDEV",\
+"TRIPLES",\
+"TRIPLES_MEAN",\
+"TRIPLES_STDEV",\
+"HOMERUNS",\
+"HOMERUNS_MEAN",\
+"HOMERUNS_STDEV",\
+"RBI",\
+"RBI_MEAN",\
+"RBI_STDEV",\
+"STRIKEOUT",\
+"STRIKEOUT_MEAN",\
+"STRIKEOUT_STDEV",\
+"SACRIFICE_F",\
+"BA_MEAN",\
+"BA_STDEV",\
+"OBP_MEAN",\
+"OBP_STDEV",\
+"SLG_MEAN",\
+"SLG_STDEV",\
+"WPA_MEAN",\
+"WPA_STDEV"]
+
+df = pd.DataFrame(data_dict, columns=columns)
 df.to_csv('batting.csv', mode='w', header = True, index = False)
-
-
-end = perf_counter()
-elapsed = end - start
-
-hours   = floor(elapsed / 60**2)
-minutes = floor((elapsed - hours*60**2) / 60)
-seconds = floor(elapsed - hours*60**2 -minutes*60)
-
-batting_runtime = open('batting_runtime.txt', mode = 'w')
-batting_runtime.write('\n ++++++++++++++++++++++++++++++++++++++++ END ++++++++++++++++++++++++++++++++++++++++ \n')
-batting_runtime.write(f'\n Elapsed Time:  {hours} hours, {minutes} minutes, {seconds} seconds \n Number of players tried: {try_counter}\n Number of misses: {miss_counter}')
-batting_runtime.close()

@@ -18,6 +18,11 @@ def _mode(lst):
     _,val = counter.most_common(1)[0]
     return [x for x,y in counter.items() if y == val]
 
+def try_INT_or_zero(x):
+    try:
+        return int(x)
+    except:
+        return 0
 #lists for personal attributes
 
 NAME = []
@@ -25,8 +30,25 @@ NAME_KEY = []
 
 YEAR = []
 TEAM = []
+POSITION = []
+GAMES = []
 
-#lists for positions played
+
+
+TEAM_1 = []
+TEAM_1_GAMES = []
+TEAM_2 = []
+TEAM_2_GAMES = []
+TEAM_3 = []
+TEAM_3_GAMES = []
+TEAM_4 = []
+TEAM_4_GAMES = []
+TEAM_5 = []
+TEAM_5_GAMES = []
+TEAM_6 = []
+TEAM_6_GAMES = []
+DAYS_BW_TEAM_GAMES_MEAN = []
+DAYS_BW_TEAM_GAMES_STDEV = []
 
 CAT = []
 FSTBASE = []
@@ -78,6 +100,8 @@ for year in range(2000,2020):
         teams_urls.append(item['href'])
 
 
+
+
     for url_team in teams_urls:
 
         url_T = 'https://www.baseball-reference.com' + url_team
@@ -91,17 +115,21 @@ for year in range(2000,2020):
         team = soup_T.find('h1', {'itemprop':'name'}).find_all('span')[1].text
         players_namekeys = []
         names = []
+        positions = []
 
         for item in body.find_all('a', href=True):
             #players_urls.append(item['href'])
             players_namekeys.append(item['href'][11:-6])
             names.append(item.text)
 
+        for item in body.find_all('td', {'data-stat':'pos'}):
+            positions.append(item.text)
+
 
 
         #start loop for each players
 
-        for namekey, name in zip(players_namekeys, names):
+        for namekey, name, _pos in zip(players_namekeys, names, positions):
 
             try_counter += 1
 
@@ -113,6 +141,31 @@ for year in range(2000,2020):
                 res_PG = requests.get(url_PG)
                 soup_PG=bs4.BeautifulSoup(res_PG.text, 'html.parser')
                 foot = soup_PG.find('tfoot')
+                body = soup_PG.find('tbody')
+                body_TEAMID = body.find_all('td', {'data-stat':'team_ID'})
+                body_GTM = body.find_all('td', {'data-stat':'team_game_num'})
+
+                team_id = []
+                game_result = []
+                gtm = []
+                days_rest = []
+                days_bw_team_games = []
+
+                for n in range(len(body_GTM)):
+
+                    _team_id = body_TEAMID[n].text
+                    _gtm = int(body_GTM[n].text.split('(')[0])
+
+                    if n == 0:
+                        _days_bw_team_games = _gtm
+                    else:
+                        _days_bw_team_games = _gtm - gtm[-1]
+
+                    team_id.append(_team_id)
+                    gtm.append(_gtm)
+                    days_bw_team_games.append(_days_bw_team_games)
+
+                team_id_dict = Counter(team_id)
 
                 #get positions played
 
@@ -177,6 +230,48 @@ for year in range(2000,2020):
                 YEAR.append(year)
 
                 TEAM.append(team)
+                POSITION.append(_pos)
+
+                TEAM_1.append(list(team_id_dict.keys())[0])
+                TEAM_1_GAMES.append(team_id_dict[list(team_id_dict.keys())[0]])
+                try:
+                    TEAM_2.append(list(team_id_dict.keys())[1])
+                    TEAM_2_GAMES.append(team_id_dict[list(team_id_dict.keys())[1]])
+                except:
+                    TEAM_2.append('NA')
+                    TEAM_2_GAMES.append('NA')
+
+                try:
+                    TEAM_3.append(list(team_id_dict.keys())[2])
+                    TEAM_3_GAMES.append(team_id_dict[list(team_id_dict.keys())[2]])
+                except:
+                    TEAM_3.append('NA')
+                    TEAM_3_GAMES.append('NA')
+
+                try:
+                    TEAM_4.append(list(team_id_dict.keys())[3])
+                    TEAM_4_GAMES.append(team_id_dict[list(team_id_dict.keys())[3]])
+                except:
+                    TEAM_4.append('NA')
+                    TEAM_4_GAMES.append('NA')
+
+                try:
+                    TEAM_5.append(list(team_id_dict.keys())[4])
+                    TEAM_5_GAMES.append(team_id_dict[list(team_id_dict.keys())[4]])
+                except:
+                    TEAM_5.append('NA')
+                    TEAM_5_GAMES.append('NA')
+
+                try:
+                    TEAM_6.append(list(team_id_dict.keys())[5])
+                    TEAM_6_GAMES.append(team_id_dict[list(team_id_dict.keys())[5]])
+                except:
+                    TEAM_6.append('NA')
+                    TEAM_6_GAMES.append('NA')
+
+                GAMES.append(len(body_GTM))
+                DAYS_BW_TEAM_GAMES_MEAN.append(stat.mean(days_bw_team_games))
+                DAYS_BW_TEAM_GAMES_STDEV.append(stat.stdev(days_bw_team_games)  if len(set(days_bw_team_games)) > 1 else 0)
 
                 CAT.append(C)
                 FSTBASE.append(FB)
@@ -205,16 +300,28 @@ for year in range(2000,2020):
                 ERR_MEAN.append(errors_mean)
                 ERR_STDEV.append(errors_stdev)
 
-                print(try_counter, '- success', '- ',year, ' ', perf_counter() - start)
+                elapsed_ = perf_counter() - start
+
+                hours   = floor(elapsed_ / 60**2)
+                minutes = floor((elapsed_ - hours*60**2) / 60)
+                seconds = floor(elapsed_ - hours*60**2 -minutes*60)
+
+                print(try_counter, '- success', '- ',team, '- ', year, '- ', name, ' ', _pos, ' ', 'Elapsed Time:',  hours, 'hours', minutes, 'minutes', seconds, 'seconds')
 
             except:
 
                 miss_counter += 1
 
 
-                misses.write(str(miss_counter) + ' - ' + url_PG + '\n')
+                misses.write(str(miss_counter) + team + '- ' + year + '- ' + name + ' ' + _pos + ' - ' + url_PG + '\n')
 
-                print(try_counter, '- miss', '- ', name)
+                elapsed_ = perf_counter() - start
+
+                hours   = floor(elapsed_ / 60**2)
+                minutes = floor((elapsed_ - hours*60**2) / 60)
+                seconds = floor(elapsed_ - hours*60**2 -minutes*60)
+
+                print(try_counter, '- miss', '- ',team, '- ', year,'- ', name, ' ',_pos, ' ', 'Elapsed Time:',  hours, 'hours', minutes, 'minutes', seconds, 'seconds')
 
 
 
@@ -227,12 +334,28 @@ misses.close()
 #Create the csv output  (think about adding the team)
 
 data_dict = {
-"NAME": NAME,
+'NAME': NAME,
 "NAME_KEY": NAME_KEY,
-"TEAM": TEAM,
 "YEAR": YEAR,
-"CAT": CAT,
+"TEAM": TEAM,
+"POSITION": POSITION,
+"GAMES": GAMES,
+"TEAM_1": TEAM_1,
+"TEAM_1_GAMES": TEAM_1_GAMES,
+"TEAM_2": TEAM_2,
+"TEAM_2_GAMES": TEAM_2_GAMES,
+"TEAM_3": TEAM_3,
+"TEAM_3_GAMES": TEAM_3_GAMES,
+"TEAM_4": TEAM_4,
+"TEAM_4_GAMES": TEAM_4_GAMES,
+"TEAM_5": TEAM_5,
+"TEAM_5_GAMES": TEAM_5_GAMES,
+"TEAM_6": TEAM_6,
+"TEAM_6_GAMES": TEAM_6_GAMES,
+"DAYS_BW_TEAM_GAMES_MEAN": DAYS_BW_TEAM_GAMES_MEAN,
+"DAYS_BW_TEAM_GAMES_STDEV": DAYS_BW_TEAM_GAMES_STDEV,
 "POSITION_MODE": POSITION_MODE,
+"CAT": CAT,
 "FSTBASE": FSTBASE,
 "SCDBASE": SCDBASE,
 "TRDBASE": TRDBASE,
@@ -258,18 +381,52 @@ data_dict = {
 "ERR_STDEV": ERR_STDEV
 }
 
-df = pd.DataFrame(data_dict)
+columns =[\
+'NAME',\
+"NAME_KEY",\
+"YEAR",\
+"TEAM",\
+"POSITION",\
+"GAMES",\
+"DAYS_BW_TEAM_GAMES_MEAN",\
+"DAYS_BW_TEAM_GAMES_STDEV",\
+"TEAM_1",\
+"TEAM_1_GAMES",\
+"TEAM_2",\
+"TEAM_2_GAMES",\
+"TEAM_3",\
+"TEAM_3_GAMES",\
+"TEAM_4",\
+"TEAM_4_GAMES",\
+"TEAM_5",\
+"TEAM_5_GAMES",\
+"TEAM_6",\
+"TEAM_6_GAMES",\
+"POSITION_MODE",\
+"CAT",\
+"FSTBASE",\
+"SCDBASE",\
+"TRDBASE",\
+"SSTOP",\
+"LFTFLD",\
+"CTRFLD",\
+"RGTFLD",\
+"DESGHIT",\
+"PNCHHIT",\
+"PNCHRUN",\
+"PITCHER",\
+"INGS",\
+"INGS_MEAN",\
+"INGS_STDEV",\
+"PO",\
+"PO_MEAN",\
+"PO_STDEV",\
+"ASTS",\
+"ASTS_MEAN",\
+"ASTS_STDEV",\
+"ERR",\
+"ERR_MEAN",\
+"ERR_STDEV"]
+
+df = pd.DataFrame(data_dict, columns=columns)
 df.to_csv('fielding.csv', mode='w', header = True, index = False)
-
-
-end = perf_counter()
-elapsed = end - start
-
-hours   = floor(elapsed / 60**2)
-minutes = floor((elapsed - hours*60**2) / 60)
-seconds = floor(elapsed - hours*60**2 -minutes*60)
-
-fielding_runtime = open('fielding_runtime.txt', mode = 'w')
-fielding_runtime.write('\n ++++++++++++++++++++++++++++++++++++++++ END ++++++++++++++++++++++++++++++++++++++++ \n')
-fielding_runtime.write(f'\n Elapsed Time:  {hours} hours, {minutes} minutes, {seconds} seconds \n Number of players tried: {try_counter}\n Number of misses: {miss_counter}')
-fielding_runtime.close()
