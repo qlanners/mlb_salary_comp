@@ -1,0 +1,616 @@
+Rk,Name,Age,Tm,G,PA,Rbat,Rbaser,Rdp,Rfield,Rpos,RAA,WAA,Rrep,RAR,WAR,waaWL%,162WL%,oWAR,dWAR,oRAR,Salary,Acquired,Pos Summary
+1,Bobby Abreu*\abreubo01,32,NYY,58,248,13,2,0,-2,-2,10,1.0,9,20,1.9,.517,.506,2.1,-0.4,22,,Traded,9/8D
+2,Winston Abreu\abreuwi01,29,BAL,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,/1
+3,Jeremy Accardo\accarje01,24,TOR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,1
+4,Russ Adams*\adamsru01,25,TOR,90,280,-17,-1,0,-7,3,-22,-2.1,11,-11,-1.1,.476,.487,-0.4,-0.3,-4,$343000,Amateur Draft,46/D
+5,Jeremy Affeldt*\affelje01,27,KCR,3,2,-1,0,0,0,0,0,0.0,0,0,0.0,.491,.500,0.0,0.0,0,$1000000,Amateur Draft,1
+6,Antonio Alfonseca\alfonan01,34,TEX,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$2750000,Free Agency,1
+7,Edgardo Alfonzo\alfoned01,32,2TM,30,95,-12,0,1,0,0,-11,-1.0,4,-7,-0.7,.465,.496,-0.7,0.1,-7,$8000000,Traded,5/3D
+8,Sandy Alomar\alomasa02,40,CHW,19,51,-3,0,0,0,1,-2,-0.2,2,0,0.0,.491,.499,0.0,0.1,0,,Traded,2/D
+9,Abe Alvarez*\alvarab01,23,BOS,1,1,0,0,0,0,0,0,0.0,0,0,0.0,.484,.500,0.0,0.0,0,,Amateur Draft,/1
+10,Brian Anderson\anderbr03,24,CHW,134,405,-15,-2,0,-1,2,-15,-1.5,15,0,0.0,.489,.491,0.1,0.2,1,$330000,Amateur Draft,*8
+11,Garret Anderson*\anderga01,34,LAA,141,588,-12,-1,1,-6,-8,-26,-2.5,22,-4,-0.4,.482,.484,0.2,-1.3,2,$10600000,Amateur Draft,7D
+12,Steve Andrade\andrast01,28,KCR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Waivers,/1
+13,Danny Ardoin\ardoida01,31,BAL,5,15,-2,0,0,0,0,-2,-0.2,1,-2,-0.2,.452,.499,-0.2,0.0,-2,,Waivers,/2
+14,Joaquin Arias\ariasjo01,21,TEX,6,12,2,0,0,1,0,4,0.4,0,4,0.4,.558,.502,0.3,0.1,3,,Traded,/65
+15,Erick Aybar#\aybarer01,22,LAA,34,40,-4,1,0,-1,0,-3,-0.3,2,-2,-0.2,.490,.498,-0.1,-0.1,-1,,Amateur Free Agent,6/D4
+16,Cha-Seung Baek\baekch01,26,SEA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,/1
+17,Scott Baker\bakersc02,24,MIN,1,3,-1,0,0,0,0,0,0.0,0,0,0.0,.458,.500,0.0,0.0,0,$330000,Amateur Draft,1
+18,Paul Bako*\bakopa01,34,KCR,56,167,-16,-1,-1,4,3,-10,-1.0,6,-4,-0.4,.482,.494,-0.8,0.7,-8,$700000,Free Agency,2/D
+19,Rocco Baldelli\baldero01,24,TBD,92,387,10,4,2,1,2,18,1.8,14,33,3.2,.519,.511,3.1,0.3,32,$2000000,Amateur Draft,8
+20,Rod Barajas\barajro01,30,TEX,97,371,-9,0,0,1,6,-3,-0.2,14,11,1.1,.497,.498,1.0,0.7,10,$3200000,Free Agency,2/3
+21,Josh Bard#\bardjo01,28,BOS,7,21,0,0,0,1,0,1,0.1,1,2,0.2,.512,.501,0.1,0.1,1,$353400,Traded,/2
+22,Kevin Barker*\barkeke01,30,TOR,12,18,0,0,0,0,-1,-1,-0.1,1,0,0.0,.494,.500,0.0,-0.1,0,,Free Agency,/D39
+23,Jason Bartlett\bartlja01,26,MIN,99,372,1,0,1,7,5,15,1.5,14,29,2.8,.515,.509,2.2,1.2,22,,Traded,6
+24,Tony Batista\batisto01,32,MIN,50,195,-7,1,0,-8,1,-14,-1.3,7,-6,-0.6,.473,.492,0.2,-0.7,2,$1250000,Free Agency,5
+25,Rick Bauer\bauerri01,29,TEX,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Free Agency,1
+26,Denny Bautista\bautide01,25,KCR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$335500,Traded,/1
+27,T.J. Beam\beamtj01,25,NYY,2,1,0,0,0,0,0,0,0.0,0,0,0.0,.493,.500,0.0,0.0,0,,Amateur Draft,1
+28,Colter Bean\beanco01,29,NYY,1,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Rule 5 returned,/1
+29,Josh Beckett\beckejo02,26,BOS,2,7,1,0,0,0,1,2,0.2,0,2,0.2,.596,.501,0.2,0.0,2,$4325000,Traded,1
+30,Erik Bedard*\bedarer01,27,BAL,1,2,-1,0,0,0,0,0,0.0,0,0,0.0,.471,.500,0.0,0.0,0,$1400000,Amateur Draft,1
+31,Ronnie Belliard\belliro01,31,CLE,93,379,-2,2,1,-3,2,0,0.1,14,15,1.4,.500,.500,1.8,0.0,18,$4000000,Free Agency,4/5
+32,Adrian Beltre\beltrad01,27,SEA,156,681,8,1,0,19,3,31,3.1,25,55,5.4,.519,.518,3.6,2.2,36,$12900000,Free Agency,*5/4D
+33,Joaquin Benoit\benoijo01,28,TEX,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$775000,Amateur Free Agent,1
+34,Kris Benson\bensokr01,31,BAL,3,9,-1,0,0,0,1,0,0.0,0,0,0.0,.514,.500,0.0,0.0,0,$8333333,Traded,1
+35,Adam Bernero\bernead01,29,KCR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,/1
+36,Angel Berroa\berroan01,28,KCR,132,503,-34,1,-2,-6,7,-34,-3.3,19,-15,-1.5,.475,.479,-0.9,0.1,-9,$2000000,Traded,*6
+37,Rafael Betancourt\betanra01,31,CLE,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$365300,Free Agency,1
+38,Yuniesky Betancourt\betanyu01,24,SEA,157,584,-10,-2,1,-1,8,-4,-0.3,22,18,1.8,.498,.498,1.9,0.8,19,$677500,Amateur Free Agent,*6
+39,Kurt Birkins*\birkiku01,25,BAL,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Amateur Draft,1
+40,Casey Blake\blakeca01,32,CLE,109,456,11,2,0,-1,-5,7,0.7,17,24,2.4,.506,.504,2.5,-0.5,25,$3050000,Free Agency,9/3D
+41,Hank Blalock*\blaloha01,25,TEX,152,646,-14,-2,0,-5,0,-22,-2.1,24,2,0.3,.486,.487,0.8,-0.4,7,$3050000,Amateur Draft,*5D
+42,Andres Blanco#\blancan01,22,KCR,33,96,-5,0,0,3,1,-1,-0.1,4,3,0.3,.497,.499,0.0,0.4,0,,Amateur Free Agent,6/4D
+43,Joe Blanton\blantjo01,25,OAK,2,3,-1,0,0,0,0,0,0.0,0,0,0.0,.479,.500,0.0,0.0,0,$327000,Amateur Draft,1
+44,Willie Bloomquist\bloomwi01,28,SEA,102,283,-11,2,1,5,1,-2,-0.1,11,9,0.9,.499,.499,0.4,0.7,4,$650000,Amateur Draft,86459/37D
+45,Hiram Bocachica\bocachi01,30,OAK,8,16,-1,0,0,-1,0,-2,-0.2,1,-1,-0.1,.475,.499,0.0,-0.1,0,,Free Agency,/897
+46,T.J. Bohn\bohntj01,26,SEA,18,16,-1,0,0,0,0,-1,-0.1,1,-1,-0.1,.493,.499,-0.1,0.0,-1,,Amateur Draft,9/7
+47,Jeremy Bonderman\bondeje01,23,DET,2,4,-1,0,0,0,1,-1,-0.1,0,-1,-0.1,.472,.500,-0.1,0.0,-1,$2300000,Traded,1
+48,Boof Bonser\bonsebo01,24,MIN,2,4,0,0,0,0,1,1,0.1,0,1,0.1,.527,.500,0.1,0.0,1,,Traded,1
+49,Chris Booker\bookech01,29,KCR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Waivers,/1
+50,Aaron Boone\booneaa01,33,CLE,104,392,-13,-1,0,-11,2,-22,-2.1,15,-8,-0.7,.479,.487,0.4,-0.8,3,$3750000,Free Agency,5/4D
+51,Chris Bootcheck\bootcch01,27,LAA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+52,Joe Borchard#\borchjo01,27,SEA,6,9,-1,0,0,0,0,-1,-0.1,0,-1,-0.1,.484,.499,-0.1,0.0,-1,$331000,Traded,/8D
+53,Jason Botts#\bottsja01,25,TEX,20,60,-2,0,1,0,-1,-2,-0.2,2,0,0.0,.488,.499,0.0,-0.1,0,,Amateur Draft,D/7
+54,Milton Bradley#\bradlmi01,28,OAK,96,405,10,0,-1,-4,-4,2,0.3,15,17,1.7,.502,.501,2.1,-0.7,21,$3000000,Traded,9/D
+55,Russell Branyan*\branyru01,30,TBD,64,193,-3,1,0,4,-2,0,0.1,7,8,0.8,.501,.500,0.4,0.2,4,,Free Agency,9/537
+56,Ryan Braun\braunry01,25,KCR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+57,Craig Breslow*\breslcr01,25,BOS,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,1
+58,Chris Britton\brittch01,23,BAL,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Amateur Draft,1
+59,Ben Broussard*\brousbe01,29,2TM,144,465,5,0,1,-3,-8,-6,-0.5,17,12,1.2,.496,.499,1.5,-1.0,15,$2487500,Traded,3
+60,Jim Brower\broweji01,33,BAL,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$700000,Free Agency,1
+61,Adrian Brown#\brownad01,32,TEX,25,40,-4,1,0,3,0,-1,-0.1,2,1,0.1,.497,.500,-0.2,0.3,-2,$425000,Free Agency,98/7
+62,Andrew Brown\brownan01,25,CLE,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,/1
+63,Emil Brown\brownem01,31,KCR,147,601,5,-1,0,0,-7,-2,-0.1,23,20,2.0,.499,.499,2.0,-0.6,20,$1775000,Free Agency,*79D
+64,Jeremy Brown\brownje02,26,OAK,5,11,0,0,0,0,0,0,0.0,0,1,0.1,.503,.500,0.1,0.0,1,,Amateur Draft,/D2
+65,Brian Bruney\brunebr01,24,NYY,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,1
+66,John Buck\buckjo01,25,KCR,114,409,-10,-2,0,-1,7,-6,-0.6,15,9,0.9,.495,.496,1.0,0.6,10,$349500,Traded,*2
+67,Mark Buehrle*\buehrma01,27,CHW,2,5,-2,0,0,0,1,-1,-0.1,0,-1,-0.1,.463,.500,-0.1,0.0,-1,$8000000,Amateur Draft,1
+68,Jason Bulger\bulgeja01,27,LAA,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Traded,/1
+69,Ambiorix Burgos\burgoam01,22,KCR,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$339500,Amateur Free Agent,1
+70,A.J. Burnett\burnea.01,29,TOR,1,3,-1,0,0,0,0,0,0.0,0,0,0.0,.457,.500,0.0,0.0,0,$2200000,Free Agency,1
+71,Mike Burns\burnsmi01,27,BOS,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,/1
+72,Brian Burres*\burrebr01,25,BAL,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Waivers,1
+73,Sean Burroughs*\burrose01,25,TBD,8,25,-2,1,0,0,0,-1,-0.1,1,0,0.0,.485,.499,0.0,0.0,0,$1500000,Traded,/5
+74,Paul Byrd\byrdpa01,35,CLE,2,6,-1,0,0,0,1,0,0.0,0,0,0.0,.515,.500,0.0,0.0,0,$7000000,Free Agency,1
+75,Tim Byrdak*\byrdati01,32,BAL,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$335000,Conditional Deal,1
+76,Daniel Cabrera\cabreda01,25,BAL,1,2,-1,0,0,0,0,0,0.0,0,0,0.0,.471,.500,0.0,0.0,0,$385000,Amateur Free Agent,1
+77,Fernando Cabrera\cabrefe01,24,CLE,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$330800,Amateur Draft,1
+78,Melky Cabrera#\cabreme01,21,NYY,130,524,1,3,2,10,-5,10,1.1,20,30,3.0,.508,.506,2.0,0.6,20,,Amateur Free Agent,*7/98
+79,Orlando Cabrera\cabreor01,31,LAA,153,675,-8,6,1,-10,8,-2,-0.1,24,22,2.2,.499,.499,3.2,-0.1,32,$7500000,Free Agency,*6
+80,Miguel Cairo\cairomi01,32,NYY,81,244,-14,2,0,10,1,-1,-0.1,9,8,0.8,.499,.499,-0.2,1.1,-2,$1000000,Free Agency,436/5D7
+81,Kiko Calero\calerki01,31,OAK,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$850000,Traded,1
+82,Shawn Camp\campsh01,30,TBD,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$335000,Free Agency,1
+83,Jorge Campillo\campijo01,27,SEA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,/1
+84,Andy Cannizaro\cannian01,27,NYY,13,9,0,0,0,-1,0,-1,-0.1,0,0,0.0,.497,.500,0.1,-0.1,1,,Amateur Draft,6/45
+85,Robinson Cano*\canoro01,23,NYY,122,508,17,-1,-1,-4,3,14,1.4,19,33,3.2,.511,.508,3.6,-0.1,37,$381000,Amateur Free Agent,*4/D
+86,Jorge Cantu\cantujo01,24,TBD,107,448,-15,1,-2,-19,3,-32,-3.0,17,-15,-1.4,.471,.481,0.5,-1.5,4,$355800,Amateur Free Agent,4/D
+87,Hector Carrasco\carrahe01,36,LAA,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$2600000,Free Agency,1
+88,Sean Casey*\caseyse01,31,DET,53,196,-10,0,0,-1,-3,-14,-1.3,7,-6,-0.6,.475,.492,-0.5,-0.3,-5,,Traded,3
+89,Alexi Casilla#\casilal01,21,MIN,9,6,0,0,0,1,0,1,0.1,0,1,0.1,.513,.501,0.0,0.1,0,,Traded,/4D6
+90,Santiago Casilla\garcija01,25,OAK,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Free Agent,/1
+91,Luis Castillo#\castilu01,30,MIN,142,652,-5,1,2,0,4,1,0.2,22,24,2.3,.501,.501,2.4,0.5,24,$5071506,Traded,*4
+92,Fabio Castro*\castrfa01,21,TEX,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$327000,Traded,/1
+93,Juan Castro\castrju01,34,MIN,50,164,-13,0,0,0,2,-11,-1.1,6,-5,-0.5,.478,.493,-0.5,0.3,-5,$1000000,Free Agency,6
+94,Frank Catalanotto*\catalfr01,32,TOR,128,499,7,-1,1,-1,-6,-1,0.0,19,18,1.8,.499,.499,1.9,-0.6,19,$2700000,Free Agency,7D/9
+95,Gustavo Chacin*\chacigu01,25,TOR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$347500,Amateur Free Agent,1
+96,Shawn Chacon\chacosh01,28,NYY,1,3,0,0,0,0,0,0,0.0,0,0,0.0,.518,.500,0.0,0.0,0,$3600000,Traded,1
+97,Eric Chavez*\chaveer01,28,OAK,137,576,1,1,-1,3,2,7,0.8,22,29,2.8,.505,.504,2.6,0.6,26,$9500000,Amateur Draft,*5/D
+98,Raul Chavez\chavera01,33,BAL,16,29,-4,0,0,2,1,-1,-0.1,1,0,0.0,.493,.499,-0.2,0.3,-2,$400000,Waivers,2
+99,Bruce Chen*\chenbr01,29,BAL,2,1,0,0,0,0,0,1,0.1,0,1,0.1,.531,.500,0.1,0.0,1,$3800000,Conditional Deal,1
+100,Travis Chick\chicktr01,22,SEA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,/1
+101,Jason Childers\childja01,31,TBD,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$327000,Free Agency,/1
+102,Shin-Soo Choo*\choosh01,23,2TM,49,179,2,-1,1,6,-2,6,0.6,7,13,1.3,.513,.505,0.7,0.5,7,,Traded,9/7D
+103,Vinnie Chulk\chulkvi01,27,TOR,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$348500,Amateur Draft,1
+104,Alex Cintron#\cintral01,27,CHW,91,304,-11,1,0,-14,2,-22,-2.1,11,-11,-1.0,.477,.487,0.4,-1.1,3,$1600000,Traded,645/D
+105,Doug Clark*\clarkdo01,30,OAK,6,6,-1,0,0,0,0,-1,-0.1,0,-1,-0.1,.487,.500,-0.1,0.0,-1,,Free Agency,/7
+106,Howie Clark*\clarkho02,32,BAL,7,10,-1,0,0,0,0,-1,-0.1,0,-1,-0.1,.487,.499,-0.1,0.0,-1,,Free Agency,/5D
+107,Matt Clement\clemema01,31,BOS,1,3,0,0,0,0,0,0,0.0,0,0,0.0,.538,.500,0.0,0.0,0,$9825000,Free Agency,1
+108,Brent Clevlen\clevlbr01,22,DET,31,42,2,0,0,0,-1,1,0.1,2,2,0.3,.503,.500,0.3,-0.1,2,,Amateur Draft,89/7
+109,Jesus Colome\colomje01,28,TBD,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$815000,Traded,/1
+110,Bartolo Colon\colonba01,33,LAA,1,2,-1,0,0,0,0,0,0.0,0,0,0.0,.471,.500,0.0,0.0,0,$14000000,Free Agency,1
+111,Roman Colon\colonro01,26,DET,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Traded,1
+112,Jeff Conine\coninje01,40,BAL,114,432,-6,-1,-1,-3,-7,-18,-1.7,16,-2,-0.2,.484,.489,0.1,-0.9,1,$1700000,Free Agency,37/D59
+113,Jose Contreras\contrjo01,34,CHW,2,6,-1,0,0,0,1,0,0.0,0,0,0.0,.515,.500,0.0,0.0,0,$9500000,Traded,1
+114,Alex Cora*\coraal01,30,BOS,96,264,-14,1,1,2,4,-7,-0.6,10,3,0.3,.493,.496,0.1,0.6,1,$1400000,Free Agency,645/D
+115,Tim Corcoran\corcoti02,28,TBD,3,5,-2,0,0,0,1,-1,-0.1,0,-1,-0.1,.476,.500,-0.1,0.0,-1,,MinorLg Draft,1
+116,Francisco Cordero\cordefr01,31,TEX,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$4125000,Traded,1
+117,Bryan Corey\coreybr01,32,2TM,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Traded,1
+118,Shane Costa*\costash01,24,KCR,72,252,-9,1,0,-1,-1,-11,-1.0,9,-1,-0.1,.485,.493,0.0,-0.2,0,$327500,Amateur Draft,98/7D
+119,Neal Cotts*\cottsne01,26,CHW,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$400000,Traded,1
+120,Jesse Crain\crainje01,24,MIN,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$361000,Amateur Draft,1
+121,Carl Crawford*\crawfca02,24,TBD,151,653,11,8,5,4,-6,22,2.2,24,46,4.5,.514,.513,4.1,-0.1,42,$2625000,Amateur Draft,*7/D8
+122,Joe Crede\credejo01,28,CHW,150,586,4,-2,-2,23,3,26,2.7,22,48,4.8,.517,.516,2.5,2.6,25,$2675000,Amateur Draft,*5
+123,Coco Crisp#\crispco01,26,BOS,105,452,-13,3,0,-6,2,-14,-1.3,17,2,0.3,.487,.492,0.9,-0.3,8,$2750000,Traded,8
+124,Bobby Crosby\crosbbo01,26,OAK,96,398,-14,1,-1,-5,5,-14,-1.3,15,1,0.1,.486,.491,0.6,0.1,6,$800000,Amateur Draft,6
+125,Bubba Crosby*\crosbbu01,29,NYY,65,96,-8,0,1,-1,-1,-9,-0.9,4,-5,-0.5,.486,.495,-0.4,-0.2,-4,$354250,Traded,987/D
+126,Francisco Cruceta\crucefr01,24,SEA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Waivers,/1
+127,Nelson Cruz\cruzne02,25,TEX,41,138,-5,0,0,4,-1,-3,-0.3,5,2,0.2,.493,.498,-0.2,0.3,-2,,Traded,9/87
+128,Michael Cuddyer\cuddymi01,27,MIN,150,635,18,1,2,-11,-6,4,0.4,24,27,2.7,.502,.502,3.8,-1.6,38,$1300000,Amateur Draft,*9/3D7
+129,Johnny Damon*\damonjo01,32,NYY,149,671,12,1,2,-6,2,11,1.2,23,34,3.4,.507,.507,4.0,-0.4,40,$13000000,Free Agency,*8D/3
+130,Jason Davis\davisja02,26,CLE,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,1
+131,Jorge De La Rosa*\rosajo01,25,KCR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,1
+132,David DeJesus*\dejesda01,26,KCR,119,552,5,3,0,5,-1,11,1.2,19,30,3.0,.509,.507,2.5,0.4,25,$500000,Amateur Draft,*78
+133,Francisco Del Rosario\rosarfr01,25,TOR,3,1,0,0,0,0,0,0,0.0,0,0,0.0,.495,.500,0.0,0.0,0,,Amateur Free Agent,1
+134,Manny Delcarmen\delcama01,24,BOS,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Amateur Draft,1
+135,Mark DeRosa\derosma01,31,TEX,136,572,11,-2,1,7,-1,16,1.6,21,37,3.6,.511,.509,3.0,0.6,30,$675000,Free Agency,954/67D3
+136,Elmer Dessens\desseel01,35,KCR,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$1700000,Free Agency,1
+137,Jose Diaz\diazjo01,26,KCR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,/1
+138,R.A. Dickey\dicker.01,31,TEX,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$380000,Amateur Draft,/1
+139,Lenny DiNardo*\dinarle01,26,BOS,1,1,0,0,0,0,0,0,0.0,0,0,0.0,.484,.500,0.0,0.0,0,$335700,Free Agency,1
+140,Greg Dobbs*\dobbsgr01,27,SEA,23,28,2,0,0,0,-1,2,0.2,1,3,0.3,.507,.501,0.3,-0.1,3,,Amateur Free Agent,/D395
+141,Scott Dohmann\dohmasc01,28,KCR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,1
+142,Brendan Donnelly\donnebr01,34,LAA,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$950000,Free Agency,1
+143,Octavio Dotel\doteloc01,32,NYY,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$2000000,Free Agency,1
+144,Scott Downs*\downssc01,30,TOR,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$705000,Free Agency,1
+145,Eric DuBose*\duboser01,30,BAL,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$334000,Free Agency,/1
+146,Justin Duchscherer\duchsju01,28,OAK,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$344500,Traded,1
+147,Brandon Duckworth\duckwbr01,30,KCR,2,4,0,0,0,0,1,1,0.1,0,1,0.1,.544,.501,0.1,0.0,1,,Purchased,1
+148,Scott Dunn\dunnsc01,28,TBD,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Waivers,/1
+149,Chad Durbin\durbich01,28,DET,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,/1
+150,Jermaine Dye\dyeje01,32,CHW,146,611,43,-4,-2,-8,-5,24,2.4,23,47,4.6,.516,.514,5.4,-1.2,55,$5000000,Free Agency,*9
+151,Adam Eaton\eatonad01,28,TEX,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$4650000,Traded,1
+152,Scott Elarton\elartsc01,30,KCR,2,4,0,0,0,0,1,1,0.1,0,1,0.1,.530,.500,0.1,0.0,1,$4000000,Free Agency,1
+153,Mark Ellis\ellisma01,29,OAK,124,500,-12,2,-1,15,3,7,0.8,19,26,2.6,.506,.504,1.1,1.9,11,$2250000,Traded,*4/3
+154,Scott Erickson\ericksc01,38,NYY,1,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Free Agency,/1
+155,Darin Erstad*\erstada01,32,LAA,40,105,-7,1,0,2,0,-4,-0.4,4,0,0.0,.490,.497,-0.2,0.2,-2,$8750000,Amateur Draft,83
+156,Kelvim Escobar\escobke01,30,LAA,2,4,-1,0,0,0,1,-1,-0.1,0,-1,-0.1,.472,.500,-0.1,0.0,-1,$6750000,Free Agency,1
+157,Seth Etherton\etherse01,29,KCR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Purchased,/1
+158,Carl Everett#\evereca01,35,SEA,92,343,-13,1,0,1,-8,-19,-1.9,13,-6,-0.6,.479,.488,-0.7,-0.6,-7,$3400000,Free Agency,D/79
+159,Willie Eyre\eyrewi01,27,MIN,3,1,0,0,0,0,0,0,0.0,0,0,0.0,.495,.500,0.0,0.0,0,$327000,Amateur Draft,1
+160,Brandon Fahey*\faheybr01,25,BAL,91,286,-14,1,3,1,-1,-10,-0.9,11,1,0.1,.489,.494,0.0,0.0,0,,Amateur Draft,764/5D9
+161,Kyle Farnsworth\farnsky01,30,NYY,7,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$5416666,Free Agency,1
+162,Sal Fasano\fasansa01,34,NYY,28,57,-6,0,0,0,1,-5,-0.5,2,-3,-0.3,.483,.497,-0.3,0.1,-3,,Traded,2/D
+163,Ryan Feierabend*\feierry01,20,SEA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+164,Scott Feldman*\feldmsc01,23,TEX,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$329000,Amateur Draft,1
+165,Josh Fields\fieldjo02,23,CHW,11,25,-1,0,0,3,0,2,0.2,1,3,0.3,.521,.501,0.0,0.3,0,,Amateur Draft,/5D7
+166,Chone Figgins#\figgich01,28,LAA,155,683,-12,6,1,-10,2,-13,-1.2,24,12,1.2,.492,.492,2.2,-0.7,22,$2250000,Traded,*857/4D96
+167,Luis Figueroa#\figuelu01,32,TOR,8,9,-2,0,0,-2,0,-3,-0.3,0,-3,-0.3,.462,.498,-0.1,-0.2,-1,,Free Agency,/46
+168,Jeff Fiorentino*\fioreje01,23,BAL,19,50,1,0,0,0,-1,0,0.0,2,2,0.2,.500,.500,0.2,-0.1,2,,Amateur Draft,7/D89
+169,Ron Flores*\florero01,26,OAK,4,1,0,0,0,0,0,0,0.0,0,0,0.0,.496,.500,0.0,0.0,0,,Amateur Draft,1
+170,Lew Ford\fordle01,29,MIN,104,255,-15,2,0,9,-4,-8,-0.8,10,2,0.1,.492,.495,-0.7,0.6,-7,$425000,Traded,798/D
+171,Casey Fossum*\fossuca01,28,TBD,1,2,-1,0,0,0,0,0,0.0,0,0,0.0,.471,.500,0.0,0.0,0,$2025000,Traded,1
+172,Keith Foulke\foulkke01,33,BOS,1,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$7750000,Free Agency,1
+173,Frank Francisco\francfr01,26,TEX,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$331500,Traded,/1
+174,Jason Frasor\frasoja01,28,TOR,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$359000,Traded,1
+175,Emiliano Fruto\frutoem01,22,SEA,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Amateur Free Agent,1
+176,Kason Gabbard*\gabbaka01,24,BOS,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+177,Freddy Garcia\garcifr03,29,CHW,2,6,-1,0,0,0,1,0,0.0,0,0,0.0,.503,.500,0.0,0.0,0,$9000000,Traded,1
+178,Ryan Garko\garkory01,25,CLE,50,209,3,-1,0,0,-3,-1,-0.1,8,7,0.7,.498,.499,0.7,-0.3,7,,Amateur Draft,3/D
+179,Jon Garland\garlajo01,26,CHW,2,7,0,0,0,0,1,1,0.1,0,1,0.1,.558,.501,0.1,0.0,1,$7000000,Traded,1
+180,Matt Garza\garzama01,22,MIN,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,1
+181,Joey Gathright*\gathrjo01,25,2TM,134,445,-21,2,4,-1,3,-13,-1.2,17,4,0.4,.490,.496,0.5,0.2,5,$337200,Traded,8/D
+182,Chad Gaudin\gaudich01,23,OAK,6,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Traded,1
+183,Esteban German\germaes01,28,KCR,106,331,17,-1,0,-15,-2,0,0.0,12,12,1.2,.500,.500,2.7,-1.6,27,$333000,Traded,4D578/36
+184,Jason Giambi*\giambja01,35,NYY,139,579,34,-3,0,-13,-10,7,0.8,22,29,2.9,.505,.504,4.1,-2.2,42,$20428571,Free Agency,D3
+185,Jay Gibbons*\gibboja01,29,BAL,90,378,3,-2,-1,-4,-6,-10,-0.9,14,4,0.4,.489,.494,0.8,-0.9,8,$4200000,Rule 5 Draft,D9
+186,Troy Glaus\glaustr01,29,TOR,153,634,15,0,-4,6,3,20,2.0,24,44,4.3,.513,.512,3.7,0.9,38,$10000000,Traded,*5/6D
+187,Ross Gload*\gloadro01,30,CHW,77,167,3,0,1,-8,-3,-8,-0.7,6,-1,-0.1,.490,.495,0.7,-1.0,7,$350000,Traded,39/7D
+188,Jimmy Gobble*\gobblji01,24,KCR,4,1,0,0,0,0,0,0,0.0,0,0,0.0,.504,.500,0.0,0.0,0,$345500,Amateur Draft,1
+189,Jonny Gomes\gomesjo01,25,TBD,117,461,-4,-2,-1,-2,-10,-19,-1.8,17,-2,-0.2,.484,.488,0.1,-1.1,0,$355800,Amateur Draft,D/9
+190,Alexis Gomez*\gomezal01,27,DET,62,111,-3,1,0,3,-3,-1,-0.1,4,3,0.3,.499,.499,0.0,0.0,0,,Free Agency,79/D
+191,Chris Gomez\gomezch02,35,BAL,55,142,4,0,-2,-1,-1,0,0.0,5,6,0.6,.500,.500,0.7,-0.2,7,$850000,Free Agency,34/65D
+192,Alex Gonzalez\gonzaal02,29,BOS,111,429,-14,0,0,4,6,-5,-0.4,16,11,1.2,.496,.497,0.8,1.0,7,$2682592,Free Agency,*6
+193,Tony Graffanino\graffto01,34,KCR,69,250,0,-1,1,3,0,3,0.4,9,13,1.3,.505,.502,1.0,0.3,10,$2050000,Waivers,534/6D
+194,Curtis Granderson*\grandcu01,25,DET,159,679,-1,1,2,3,4,8,0.9,25,33,3.3,.505,.505,3.0,0.7,30,$335000,Amateur Draft,*8
+195,Danny Graves\graveda01,32,CLE,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$600000,Free Agency,1
+196,Nick Green\greenni01,27,2TM,63,127,-11,-2,0,5,2,-6,-0.6,5,-2,-0.2,.490,.499,-0.7,0.7,-7,$356700,Purchased,456/3D
+197,Sean Green\greense01,27,SEA,1,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Traded,1
+198,Kevin Gregg\greggke01,28,LAA,3,3,-1,0,0,0,0,0,0.0,0,0,0.0,.486,.500,0.0,0.0,0,,Free Agency,1
+199,Zack Greinke\greinza01,22,KCR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$365500,Amateur Draft,/1
+200,Jason Grilli\grillja01,29,DET,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$350000,Free Agency,1
+201,Mark Grudzielanek\grudzma01,36,KCR,134,586,-10,1,2,15,4,11,1.2,21,32,3.2,.508,.507,1.8,1.9,17,$4000000,Free Agency,*4/6
+202,Eddie Guardado\guarded01,35,SEA,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$6250000,Free Agency,1
+203,Vladimir Guerrero\guerrvl01,31,LAA,156,665,25,0,1,-5,-8,14,1.4,25,38,3.8,.508,.508,4.2,-1.2,43,$13500000,Free Agency,*9D
+204,Matt Guerrier\guerrma02,27,MIN,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$343500,Waivers,1
+205,Aaron Guiel*\guielaa01,33,2TM,63,151,1,0,0,0,-3,-1,-0.1,6,5,0.5,.498,.500,0.5,-0.2,5,,Free Agency,/9D78
+206,Carlos Guillen#\guillca01,30,DET,153,622,32,2,-1,-2,7,38,3.8,23,62,6.0,.524,.523,6.2,0.5,64,$5000000,Traded,*6/3D
+207,Jeremy Guthrie\guthrje01,27,CLE,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+208,Franklin Gutierrez\gutiefr01,23,CLE,43,141,-7,1,0,7,-1,0,0.0,5,5,0.5,.499,.500,-0.2,0.6,-2,,Traded,97/8
+209,Freddy Guzman#\guzmafr01,25,TEX,9,9,0,0,0,0,0,0,0.0,0,0,0.0,.497,.500,0.0,0.0,0,,Traded,/8D79
+210,Charlie Haeger\haegech01,22,CHW,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+211,Travis Hafner*\hafnetr01,29,CLE,129,564,54,-2,0,1,-11,41,4.0,20,61,5.9,.530,.524,5.8,-1.0,60,$2700000,Traded,*D/3
+212,Jerry Hairston\hairsje02,30,TEX,63,100,-6,-1,-1,3,-2,-7,-0.7,4,-3,-0.3,.490,.496,-0.6,0.2,-6,,Traded,78/9D645
+213,John Halama*\halamjo01,34,BAL,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,1
+214,Toby Hall\hallto02,30,TBD,64,234,-13,-2,-1,-3,4,-15,-1.4,9,-6,-0.6,.477,.491,-0.3,0.1,-3,$2250000,Amateur Draft,2/D5
+215,Roy Halladay\hallaro01,29,TOR,1,3,-1,0,0,0,0,0,0.0,0,0,0.0,.457,.500,0.0,0.0,0,$12750000,Amateur Draft,1
+216,Brad Halsey*\halsebr01,25,OAK,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$346000,Traded,1
+217,Jason Hammel\hammeja01,23,TBD,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+218,Jack Hannahan*\hannaja01,26,DET,3,10,-2,0,0,0,0,-3,-0.3,0,-2,-0.2,.413,.498,-0.2,0.0,-2,,Amateur Draft,/3D
+219,Devern Hansack\hansade01,28,BOS,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,/1
+220,Craig Hansen\hansecr01,22,BOS,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Amateur Draft,1
+221,Rich Harden*\harderi01,24,OAK,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$1250000,Amateur Draft,/1
+222,Dan Haren\harenda01,25,OAK,3,7,-2,0,0,0,1,-1,-0.1,0,-1,-0.1,.467,.499,-0.1,0.0,-1,$550000,Traded,1
+223,Travis Harper*\harpetr01,30,TBD,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$850000,Free Agency,1
+224,Jeff Harris\harrije02,31,SEA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$332000,Purchased,/1
+225,Willie Harris*\harriwi02,28,BOS,47,52,-6,-1,1,-1,0,-7,-0.7,2,-5,-0.5,.485,.496,-0.4,-0.1,-4,,Free Agency,87/49
+226,Chad Harville\harvich01,29,TBD,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Free Agency,1
+227,John Hattig#\hattijo01,26,TOR,13,29,1,0,0,1,0,2,0.2,1,3,0.3,.514,.501,0.2,0.1,2,,Traded,5
+228,LaTroy Hawkins\hawkila01,33,BAL,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$4400000,Traded,1
+229,Chris Heintz\heintch01,31,MIN,2,1,0,0,0,0,0,0,0.0,0,0,0.0,.486,.500,0.0,0.0,0,,Free Agency,/2
+230,Mark Hendrickson*\hendrma01,32,TBD,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$1950000,Traded,1
+231,Sean Henn\hennse01,25,NYY,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+232,Dustin Hermanson\hermadu01,33,CHW,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$3150000,Free Agency,/1
+233,Felix Hernandez\hernafe02,20,SEA,2,5,-1,0,0,0,1,-1,-0.1,0,-1,-0.1,.465,.500,-0.1,0.0,-1,$340000,Amateur Free Agent,1
+234,Ramon Hernandez\hernara02,30,BAL,144,560,11,-1,-1,5,8,22,2.2,21,43,4.2,.515,.513,3.7,1.3,38,$4000000,Free Agency,*2/D3
+235,Roberto Hernandez\carmofa01,25,CLE,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Amateur Free Agent,1
+236,Runelvys Hernandez\hernaru03,28,KCR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Free Agent,1
+237,Aaron Hill\hillaa01,24,TOR,155,606,-5,3,0,13,6,17,1.8,23,40,3.9,.511,.510,2.7,2.0,27,$336000,Amateur Draft,*46/D
+238,Shea Hillenbrand\hillesh02,30,TOR,81,319,5,0,-2,-3,-5,-5,-0.4,12,7,0.7,.494,.497,1.0,-0.7,10,$5800000,Traded,D35
+239,Eric Hinske*\hinsker01,28,2TM,109,312,4,-1,-1,1,-5,-2,-0.1,12,10,1.0,.499,.500,0.9,-0.3,9,$4425000,Purchased,39/7D
+240,Jim Hoey\hoeyja02,23,BAL,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,1
+241,Todd Hollandsworth*\hollato01,33,CLE,56,162,-7,0,0,3,-2,-5,-0.5,6,1,0.1,.491,.497,-0.2,0.1,-2,$900000,Free Agency,79/8D
+242,Damon Hollins\hollida02,32,TBD,121,355,-13,-1,1,3,-4,-14,-1.3,13,-1,-0.1,.489,.492,-0.3,0.0,-3,$346200,Free Agency,*987/D
+243,Mike Holtz*\holtzmi01,33,BOS,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,/1
+244,Kevin Hooper\hoopeke01,29,DET,8,5,-1,0,0,1,0,1,0.1,0,1,0.1,.510,.501,0.0,0.1,0,,Free Agency,/45D
+245,J.P. Howell*\howeljp01,23,TBD,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,/1
+246,Jon Huber\huberjo01,24,SEA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,1
+247,Justin Huber\huberju01,23,KCR,5,11,-1,0,0,0,0,-1,-0.1,0,-1,-0.1,.481,.499,-0.1,0.0,0,,Traded,/D
+248,Ken Huckaby\huckake01,35,BOS,8,5,-1,0,0,0,0,-1,-0.1,0,-1,-0.1,.488,.499,-0.1,0.0,-1,,Free Agency,/2
+249,Luke Hudson\hudsolu01,29,KCR,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$337000,Free Agency,1
+250,Aubrey Huff*\huffau01,29,TBD,63,256,2,1,1,-6,1,-2,-0.1,10,8,0.8,.498,.499,1.4,-0.5,14,$6916667,Amateur Draft,5/D
+251,Torii Hunter\hunteto01,30,MIN,147,611,10,2,-1,-3,3,11,1.1,23,34,3.3,.507,.506,3.6,0.1,37,$10750000,Amateur Draft,*8/D
+252,Adam Hyzdu\hyzduad01,34,TEX,2,4,-1,0,0,0,0,-1,-0.1,0,-1,-0.1,.468,.500,-0.1,0.0,-1,,Free Agency,/D9
+253,Raul Ibanez*\ibanera01,34,SEA,159,699,18,0,0,9,-6,21,2.1,25,46,4.5,.513,.513,3.7,0.4,37,$4250000,Free Agency,*7/D
+254,Tadahito Iguchi\iguchta01,31,CHW,138,627,0,0,1,-5,4,0,0.1,22,22,2.2,.500,.500,2.7,-0.1,27,$2400000,Free Agency,*4/D
+255,Omar Infante\infanom01,24,DET,78,245,-2,1,0,4,0,4,0.4,9,13,1.3,.505,.502,0.9,0.4,9,$385000,Amateur Free Agent,4D6/58
+256,Brandon Inge\ingebr01,29,DET,159,601,1,0,-1,24,3,27,2.8,23,50,5.0,.517,.517,2.6,2.8,26,$3000000,Amateur Draft,*5
+257,Joe Inglett*\inglejo01,28,CLE,64,222,-4,2,2,5,1,6,0.6,8,14,1.4,.509,.503,0.9,0.6,9,,Amateur Draft,4/78D6
+258,Maicer Izturis#\izturma01,25,LAA,104,399,3,3,-1,-4,2,3,0.4,15,18,1.8,.503,.502,2.2,-0.1,22,$350000,Traded,56/4D
+259,Edwin Jackson\jacksed01,22,TBD,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Traded,1
+260,Casey Janssen\janssca01,24,TOR,1,1,0,0,0,0,0,0,0.0,0,0,0.0,.485,.500,0.0,0.0,0,,Amateur Draft,1
+261,Kevin Jarvis*\jarvike01,36,BOS,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Conditional Deal,/1
+262,Bobby Jenks\jenksbo01,25,CHW,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$340000,Waivers,1
+263,Derek Jeter\jeterde01,32,NYY,154,715,36,4,1,-16,8,33,3.2,24,57,5.6,.520,.519,7.1,-0.7,73,$20600000,Amateur Draft,*6/D
+264,Cesar Jimenez*\jimence01,21,SEA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Free Agent,/1
+265,D'Angelo Jimenez#\jimend'01,28,2TM,28,88,-5,0,0,0,1,-5,-0.5,3,-1,-0.1,.483,.499,-0.2,0.1,-1,$750000,Free Agency,/564
+266,Kenji Johjima\johjike01,30,SEA,144,542,10,-2,0,-11,9,6,0.6,20,26,2.6,.504,.503,3.7,-0.2,37,$5433333,Free Agency,*2
+267,Dan Johnson*\johnsda06,26,OAK,91,331,-9,-2,2,2,-5,-12,-1.1,12,1,0.1,.487,.493,-0.1,-0.2,-1,$330000,Amateur Draft,3/D
+268,Jason Johnson\johnsja02,32,2TM,1,1,0,0,0,0,0,0,0.0,0,0,0.0,.484,.500,0.0,0.0,0,$3500000,Purchased,/1
+269,Jim Johnson\johnsji04,23,BAL,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+270,Randy Johnson\johnsra05,42,NYY,2,6,-1,0,0,0,1,0,0.0,0,0,0.0,.492,.500,0.0,0.0,0,$15661427,Traded,1
+271,Reed Johnson\johnsre02,29,TOR,134,517,18,2,-1,19,-5,33,3.3,19,52,5.1,.524,.520,3.3,1.4,33,$1425000,Amateur Draft,*798/D
+272,Adam Jones\jonesad01,20,SEA,32,76,-5,-1,0,3,0,-3,-0.3,3,0,0.0,.492,.498,-0.3,0.4,-3,,Amateur Draft,8/D
+273,Greg Jones\jonesgr01,29,LAA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,/1
+274,Todd Jones*\jonesto02,38,DET,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$5792956,Free Agency,1
+275,Gabe Kapler\kaplega01,30,BOS,72,147,0,0,0,2,-2,0,0.0,6,5,0.5,.499,.500,0.3,0.0,3,,Free Agency,978/D
+276,Steve Karsay\karsast01,34,OAK,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Purchased,/1
+277,Jeff Karstens\karstje01,23,NYY,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+278,Scott Kazmir*\kazmisc01,22,TBD,2,3,-1,0,0,0,0,0,0.0,0,0,0.0,.479,.500,0.0,0.0,0,$371700,Traded,1
+279,Randy Keisler*\keislra01,30,OAK,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,1
+280,Jason Kendall\kendaja01,32,OAK,143,626,-4,0,-1,11,9,15,1.5,22,38,3.7,.510,.509,2.6,2.1,26,$11492454,Traded,*2/D
+281,Howie Kendrick\kendrho01,22,LAA,72,283,-3,1,0,8,-2,4,0.5,11,15,1.5,.506,.503,0.7,0.6,7,,Amateur Draft,34/D5
+282,Adam Kennedy*\kennead01,30,LAA,139,503,-13,-2,0,2,3,-10,-0.9,19,9,0.9,.493,.494,0.7,0.6,7,$3350000,Traded,*4/D
+283,Joe Kennedy\kennejo04,27,OAK,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$2400000,Traded,1
+284,Bobby Keppel\keppebo01,24,KCR,2,2,-1,0,0,0,0,0,0.0,0,0,0.0,.486,.500,0.0,0.0,0,,Free Agency,/1
+285,Jeff Keppinger\keppije01,26,KCR,22,67,-2,0,0,1,0,-1,-0.1,3,1,0.1,.494,.499,0.0,0.1,0,,Traded,5/3D47
+286,Bobby Kielty#\kieltbo01,29,OAK,81,297,0,2,1,4,-3,3,0.4,11,14,1.4,.504,.502,1.0,0.1,10,,Traded,79/D
+287,Ian Kinsler\kinslia01,24,TEX,120,474,2,1,-1,-3,3,1,0.2,18,19,1.9,.501,.501,2.2,0.1,22,$327000,Amateur Draft,*4
+288,Shane Komine\kominsh01,25,OAK,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+289,Paul Konerko\konerpa01,30,CHW,152,643,27,-5,-4,-3,-9,6,0.7,24,30,3.0,.504,.504,3.3,-1.1,33,$12000000,Free Agency,*3D
+290,John Koronka*\koronjo01,25,TEX,3,6,-2,0,0,0,1,-1,-0.1,0,-1,-0.1,.464,.499,-0.1,0.0,-1,$329000,Traded,1
+291,Casey Kotchman*\kotchca01,23,LAA,29,88,-8,-1,0,5,-1,-5,-0.5,3,-2,-0.2,.482,.497,-0.7,0.4,-7,$340000,Amateur Draft,3
+292,Mark Kotsay*\kotsama01,30,OAK,129,558,-8,-2,-1,-9,3,-17,-1.6,20,3,0.3,.487,.490,1.2,-0.6,12,$7000000,Traded,*8/3D
+293,Kevin Kouzmanoff\kouzmke01,24,CLE,16,61,-2,0,0,0,-1,-4,-0.4,2,-2,-0.2,.474,.497,-0.2,-0.1,-2,,Amateur Draft,D/5
+294,Jason Kubel*\kubelja01,24,MIN,73,235,-10,0,-2,-1,-4,-18,-1.7,9,-9,-0.9,.476,.489,-0.8,-0.5,-8,$327000,Amateur Draft,D7/9
+295,John Lackey\lackejo01,27,LAA,2,3,-1,0,0,0,0,0,0.0,0,0,0.0,.479,.500,0.0,0.0,0,$3340000,Amateur Draft,1
+296,Gerald Laird\lairdge01,26,TEX,78,260,2,0,0,1,4,6,0.6,10,16,1.5,.507,.504,1.5,0.6,15,$332330,Traded,2/D9
+297,Tim Laker\lakerti01,36,CLE,4,13,1,0,0,-1,0,0,0.0,0,1,0.1,.505,.500,0.2,-0.1,2,,Free Agency,/2
+298,Juan Lara\laraju01,25,CLE,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Free Agent,/1
+299,Matt Lawton*\lawtoma02,34,SEA,11,29,-2,0,0,-1,0,-3,-0.3,1,-2,-0.2,.472,.498,-0.1,-0.1,-1,$400000,Free Agency,/8D97
+300,Brandon League\leagubr01,23,TOR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,1
+301,Wil Ledezma*\ledezwi01,25,DET,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Rule 5 Draft,1
+302,Carlos Lee\leeca01,30,TEX,59,260,11,1,-1,-8,-3,0,0.0,9,9,0.9,.500,.500,1.7,-1.0,17,,Traded,7/D
+303,Cliff Lee*\leecl02,27,CLE,2,6,-1,0,0,0,1,0,0.0,0,0,0.0,.497,.500,0.0,0.0,0,$406200,Traded,1
+304,Travis Lee*\leetr01,31,TBD,114,388,-14,0,-1,4,-5,-16,-1.5,15,-1,-0.1,.486,.490,-0.5,-0.1,-5,$2450000,Free Agency,*3
+305,Jon Lester*\lestejo01,22,BOS,2,4,-1,0,0,0,1,-1,-0.1,0,-1,-0.1,.470,.500,-0.1,0.0,-1,,Amateur Draft,1
+306,Colby Lewis\lewisco01,26,DET,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Waivers,/1
+307,Cory Lidle\lidleco01,34,NYY,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,1
+308,Ted Lilly*\lillyte01,30,TOR,2,3,-1,0,0,0,0,0,0.0,0,0,0.0,.479,.500,0.0,0.0,0,$4000000,Traded,1
+309,Adam Lind*\lindad01,22,TOR,18,65,5,0,0,0,-1,3,0.3,2,6,0.5,.516,.502,0.5,-0.1,6,,Amateur Draft,D/7
+310,Francisco Liriano*\liriafr01,22,MIN,3,7,0,0,0,0,1,1,0.1,0,1,0.1,.521,.500,0.1,0.0,1,$327000,Traded,1
+311,Wes Littleton\littlwe01,23,TEX,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,1
+312,Bobby Livingston*\livinbo01,23,SEA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+313,Esteban Loaiza\loaizes01,34,OAK,2,6,-2,0,0,0,1,-1,-0.1,0,-1,-0.1,.458,.499,-0.1,0.0,-1,$6000000,Free Agency,1
+314,Kameron Loe\loeka01,24,TEX,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$348770,Amateur Draft,1
+315,Adam Loewen*\loewead01,22,BAL,1,2,-1,0,0,0,0,0,0.0,0,0,0.0,.471,.500,0.0,0.0,0,,Amateur Draft,1
+316,Boone Logan\loganbo02,21,CHW,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$327000,Amateur Draft,1
+317,Kyle Lohse\lohseky01,27,MIN,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$3950000,Traded,1
+318,Terrence Long*\longte01,30,NYY,12,40,-5,1,0,-1,0,-5,-0.5,2,-4,-0.4,.457,.497,-0.3,-0.1,-3,,Free Agency,/987D
+319,Javier Lopez*\lopezja02,28,BOS,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Traded,1
+320,Javy Lopez\lopezja01,35,2TM,94,364,-10,-2,0,-4,-3,-19,-1.9,14,-6,-0.6,.480,.494,-0.2,-0.6,-2,$9000000,Free Agency,D2
+321,Jose Lopez\lopezjo01,22,SEA,151,655,-9,-1,1,9,4,4,0.5,24,28,2.8,.503,.503,1.9,1.4,19,$335000,Amateur Free Agent,*4
+322,Rodrigo Lopez\lopezro02,30,BAL,1,3,-1,0,0,0,0,0,0.0,0,0,0.0,.457,.500,0.0,0.0,0,$3750000,Free Agency,1
+323,Mark Loretta\loretma01,34,BOS,155,703,-18,2,1,-7,3,-19,-1.8,24,5,0.5,.488,.488,1.2,-0.4,12,$3250000,Traded,*43/D
+324,Mark Lowe*\lowema01,23,SEA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,1
+325,Mike Lowell\lowelmi01,32,BOS,153,631,5,-2,-2,5,3,9,1.0,24,33,3.3,.506,.506,2.8,0.9,28,$9000000,Traded,*5
+326,Julio Lugo\lugoju01,30,TBD,73,322,11,3,0,-8,4,9,0.9,11,21,2.0,.512,.505,2.8,-0.4,29,$4950000,Free Agency,6
+327,Ruddy Lugo\lugoru01,26,TBD,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$327000,Free Agency,1
+328,Hector Luna\lunahe01,26,CLE,37,134,-3,0,0,-11,1,-13,-1.3,5,-8,-0.8,.466,.492,0.3,-0.9,3,,Traded,46/5D9
+329,Mike MacDougal#\macdomi01,29,2TM,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$430000,Traded,1
+330,Rob Mackowiak*\mackoro01,30,CHW,112,290,-1,0,2,-7,-1,-7,-0.7,11,4,0.4,.494,.496,1.1,-0.7,11,$2250000,Traded,879/5D
+331,Ron Mahay*\mahayro01,35,TEX,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Free Agency,1
+332,Mitch Maier*\maiermi01,24,KCR,5,15,-2,0,0,1,0,-1,-0.1,1,-1,-0.1,.477,.499,-0.2,0.1,-2,,Amateur Draft,/79D
+333,Julio Manon*\manonju01,33,BAL,1,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Free Agency,1
+334,Shaun Marcum\marcush01,24,TOR,1,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Amateur Draft,1
+335,Nick Markakis*\markani01,22,BAL,147,542,3,2,1,5,-6,4,0.5,20,25,2.5,.503,.503,2.0,-0.1,20,$327000,Amateur Draft,*97/8D
+336,Mike Maroth*\marotmi01,28,DET,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$2300000,Traded,1
+337,Andy Marte\martean01,22,CLE,50,178,-6,-1,0,9,1,3,0.3,7,9,0.9,.505,.502,0.0,1.0,0,,Traded,5
+338,Victor Martinez#\martivi01,27,CLE,153,652,20,-3,-2,-17,7,5,0.5,24,29,2.8,.503,.503,4.5,-0.9,46,$1000000,Amateur Free Agent,*23/D
+339,Nick Masset\masseni01,24,TEX,1,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Amateur Draft,/1
+340,Tom Mastny\mastnto01,25,CLE,1,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Traded,1
+341,Julio Mateo\mateoju01,28,SEA,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$700000,Amateur Free Agent,1
+342,Jeff Mathis\mathije01,23,LAA,23,63,-6,0,0,-2,1,-7,-0.7,2,-5,-0.5,.470,.496,-0.3,-0.1,-3,$327000,Amateur Draft,2/D
+343,Luis Matos\matoslu01,27,BAL,55,134,-8,2,0,-1,-2,-9,-0.9,5,-4,-0.4,.484,.495,-0.3,-0.2,-3,$1625000,Amateur Draft,79/8D
+344,Hideki Matsui*\matsuhi01,32,NYY,51,201,7,0,0,-4,-3,1,0.1,8,8,0.8,.501,.500,1.2,-0.6,12,$13000000,Free Agency,7D
+345,Gary Matthews#\matthga02,31,TEX,147,690,18,-3,1,10,3,30,3.0,23,53,5.2,.520,.518,4.2,1.4,43,$2387500,Free Agency,*8/9D
+346,Joe Mauer*\mauerjo01,23,MIN,140,608,34,2,-1,-4,7,38,3.7,22,60,5.8,.526,.522,6.2,0.3,64,$400000,Amateur Draft,*2D
+347,Joe Mays#\maysjo01,30,KCR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$1000000,Free Agency,/1
+348,Brandon McCarthy\mccarbr01,22,CHW,3,1,0,0,0,0,0,0,0.0,0,0,0.0,.495,.500,0.0,0.0,0,$332000,Amateur Draft,1
+349,Seth McClung*\mccluse01,25,TBD,1,2,-1,0,0,0,0,0,0.0,0,0,0.0,.492,.500,0.0,0.0,0,$343000,Amateur Draft,1
+350,John McDonald\mcdonjo03,31,TOR,104,286,-21,2,0,3,4,-12,-1.1,11,-1,-0.1,.489,.493,-0.4,0.8,-4,$500000,Purchased,64/5D
+351,Dustin McGowan\mcgowdu01,24,TOR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,1
+352,Dallas McPherson*\mcpheda01,25,LAA,40,121,0,0,0,0,0,0,0.0,5,5,0.5,.500,.500,0.5,0.0,4,,Amateur Draft,5/3D
+353,Brian Meadows\meadobr01,30,TBD,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$600000,Free Agency,1
+354,Gil Meche\mechegi01,27,SEA,2,4,-1,0,0,0,1,-1,-0.1,0,-1,-0.1,.472,.500,-0.1,0.0,-1,$3700000,Amateur Draft,1
+355,Adam Melhuse#\melhuad01,34,OAK,49,139,-6,-1,-1,1,0,-6,-0.6,5,-1,-0.1,.488,.496,-0.2,0.1,-2,$700000,Free Agency,2D/53
+356,Kevin Mench\menchke01,28,TEX,87,349,1,0,1,-7,-4,-9,-0.8,13,5,0.5,.491,.495,1.2,-1.1,11,$2800000,Amateur Draft,97D
+357,Lou Merloni\merlolo01,35,CLE,9,23,-2,0,0,-2,0,-3,-0.3,1,-3,-0.3,.463,.498,-0.1,-0.2,-1,,Free Agency,/456
+358,Drew Meyer*\meyerdr01,24,TEX,5,15,-2,0,0,-2,0,-4,-0.4,1,-3,-0.3,.425,.498,-0.1,-0.2,-1,,Amateur Draft,/496
+359,Dan Miceli\micelda01,35,TBD,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$650000,Free Agency,1
+360,Jason Michaels\michaja01,30,CLE,123,548,-8,0,2,2,-5,-9,-0.8,19,11,1.1,.493,.495,0.9,-0.2,9,$1500000,Traded,*7/D9
+361,Doug Mientkiewicz*\mientdo01,32,KCR,91,361,0,-1,1,13,-4,8,0.9,14,22,2.2,.509,.505,0.9,0.9,9,$1850000,Free Agency,3
+362,Kevin Millar\millake01,34,BAL,132,503,8,-2,-1,-11,-8,-15,-1.4,19,4,0.4,.489,.491,1.5,-1.8,15,$2100000,Free Agency,3D
+363,Andrew Miller*\millean01,21,DET,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+364,Corky Miller\milleco01,30,BOS,1,4,-1,0,0,0,0,-1,-0.1,0,-1,-0.1,.378,.499,-0.1,0.0,-1,,Free Agency,/2
+365,Matt Miller\millema02,34,CLE,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$337400,Free Agency,1
+366,Kevin Millwood\millwke01,31,TEX,2,6,-2,0,0,0,1,-1,-0.1,0,-1,-0.1,.456,.499,-0.1,0.0,-1,$7868893,Free Agency,1
+367,Zach Miner\minerza01,24,DET,2,6,-1,0,0,0,1,0,0.0,0,0,0.0,.511,.500,0.0,0.0,0,,Traded,1
+368,Doug Mirabelli\mirabdo01,35,BOS,59,176,-13,-1,1,-2,3,-13,-1.2,7,-6,-0.6,.479,.492,-0.4,0.1,-4,,Traded,2/D
+369,Dustan Mohr\mohrdu01,30,BOS,21,43,-3,0,0,1,0,-2,-0.2,2,-1,0.0,.490,.499,-0.1,0.1,-1,,Free Agency,8/79
+370,Bengie Molina\molinbe01,31,TOR,117,458,0,-3,-2,-3,5,-2,-0.1,17,15,1.5,.498,.499,1.8,0.3,18,$4500000,Free Agency,2D
+371,Jose Molina\molinjo01,31,LAA,78,245,-14,-1,-1,2,4,-9,-0.9,9,0,0.0,.488,.494,-0.2,0.7,-2,$850000,Free Agency,2/3
+372,Craig Monroe\monrocr01,29,DET,147,585,-1,-2,-1,-3,-7,-14,-1.3,22,8,0.8,.491,.491,1.1,-0.9,11,$2800000,Waivers,*7D/8
+373,Agustin Montero\monteag01,28,CHW,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Free Agency,1
+374,Melvin Mora\morame01,34,BAL,155,705,-5,3,1,-5,3,-3,-0.2,24,22,2.2,.498,.498,2.7,-0.1,27,$4333334,Traded,*5/4D
+375,Kendrys Morales#\moralke01,23,LAA,57,215,-10,-1,-2,8,-3,-7,-0.7,8,1,0.1,.487,.495,-0.7,0.5,-7,,Amateur Free Agent,3
+376,Justin Morneau*\morneju01,25,MIN,157,661,31,-5,0,2,-9,20,2.0,25,44,4.3,.512,.512,4.2,-0.6,42,$385000,Amateur Draft,*3/D
+377,Mike Morse\morsemi01,24,SEA,21,48,2,0,0,-1,-1,0,0.0,2,2,0.2,.500,.500,0.3,-0.2,3,,Traded,/95D376
+378,Dustin Moseley\moseldu01,24,LAA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,/1
+379,Guillermo Mota\motagu01,32,CLE,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$3000000,Traded,1
+380,Chad Mottola\mottoch01,34,TOR,10,16,1,0,0,-2,0,-2,-0.2,1,-1,-0.1,.481,.499,0.1,-0.2,1,,Free Agency,/7D9
+381,Jamie Moyer*\moyerja01,43,SEA,1,3,0,0,0,0,0,0,0.0,0,0,0.0,.534,.500,0.0,0.0,0,$5500000,Free Agency,1
+382,Edward Mujica\mujiced01,22,CLE,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Free Agent,1
+383,David Murphy*\murphda07,24,BOS,20,26,0,0,0,-3,0,-3,-0.3,1,-2,-0.2,.485,.498,0.1,-0.3,1,,Amateur Draft,/879D
+384,Tommy Murphy#\murphto03,26,LAA,48,77,-5,1,1,6,0,3,0.3,3,5,0.5,.505,.502,-0.1,0.6,-1,,Amateur Draft,89/D7
+385,Mike Mussina*\mussimi01,37,NYY,2,4,-1,0,0,0,1,-1,-0.1,0,-1,-0.1,.471,.500,-0.1,0.0,-1,$19000000,Free Agency,1
+386,Mike Myers*\myersmi01,37,NYY,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$1150000,Free Agency,1
+387,Clint Nageotte\nageocl01,25,SEA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+388,Mike Napoli\napolmi01,24,LAA,99,325,5,0,1,2,5,14,1.4,12,26,2.6,.514,.508,2.4,0.8,24,,Amateur Draft,2/D
+389,Joe Nathan\nathajo01,31,MIN,5,1,0,0,0,0,0,0,0.0,0,0,0.0,.497,.500,0.0,0.0,0,$3750000,Traded,1
+390,Dioner Navarro#\navardi01,22,TBD,56,216,-9,0,-1,-3,3,-9,-0.9,8,-1,-0.1,.484,.494,0.2,0.1,2,,Traded,2
+391,Oswaldo Navarro\navaros01,21,SEA,4,4,1,0,0,0,0,1,0.1,0,1,0.1,.522,.501,0.1,0.0,1,,Amateur Free Agent,/6D
+392,Jeff Nelson\nelsoje01,39,CHW,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,/1
+393,Joe Nelson\nelsojo01,31,KCR,1,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Free Agency,1
+394,Pat Neshek#\neshepa01,25,MIN,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,1
+395,Phil Nevin\nevinph01,35,2TM,62,253,-7,0,-1,0,-5,-14,-1.3,9,-5,-0.5,.478,.495,-0.5,-0.5,-5,$10472409,Traded,D/3
+396,David Newhan*\newhada01,32,BAL,39,143,-6,0,0,-2,-1,-9,-0.9,5,-4,-0.3,.478,.495,-0.1,-0.2,-1,$550000,Free Agency,87/93D
+397,Wil Nieves\nievewi01,28,NYY,6,6,-2,0,0,0,0,-2,-0.1,0,-1,-0.1,.476,.499,-0.1,0.0,-1,$328600,Traded,/2
+398,Laynce Nix*\nixla01,25,TEX,9,34,-7,0,0,4,0,-2,-0.3,1,-1,-0.1,.472,.498,-0.5,0.4,-5,$345260,Amateur Draft,/8
+399,Trot Nixon*\nixontr01,32,BOS,114,453,0,0,0,-3,-4,-6,-0.5,17,11,1.1,.495,.496,1.4,-0.6,14,$7500000,Amateur Draft,*9
+400,Greg Norton#\nortogr01,33,TBD,98,335,12,-1,0,-9,-6,-3,-0.3,13,9,0.9,.497,.498,1.8,-1.4,18,,Free Agency,D93/7
+401,Eric O'Flaherty*\oflaher01,21,SEA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,1
+402,Miguel Ojeda\ojedami01,31,TEX,5,14,0,0,0,-1,0,-1,-0.1,1,-1,-0.1,.475,.499,0.0,-0.1,0,,Purchased,/2
+403,Luis Ordaz\ordazlu01,30,TBD,1,2,-1,0,0,0,0,-1,-0.1,0,-1,-0.1,.442,.500,-0.1,0.0,-1,$375000,Free Agency,/6
+404,Magglio Ordonez\ordonma01,32,DET,155,646,12,-3,-1,-7,-6,-6,-0.5,24,18,1.9,.496,.497,2.6,-1.2,25,$16200000,Free Agency,*9/D
+405,David Ortiz*\ortizda01,30,BOS,151,686,48,-1,1,1,-13,36,3.5,24,59,5.8,.523,.521,5.7,-1.1,58,$6500000,Free Agency,*D3
+406,Russ Ortiz\ortizru01,32,BAL,1,3,1,0,0,0,0,2,0.1,0,2,0.1,.640,.501,0.1,0.0,2,,Free Agency,1
+407,Chad Orvella\orvelch01,25,TBD,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,1
+408,Akinori Otsuka\otsukak01,34,TEX,1,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$1750000,Traded,1
+409,Lyle Overbay*\overbly01,29,TOR,157,640,20,-4,-2,4,-9,9,0.9,24,33,3.3,.506,.505,2.9,-0.4,29,$2525000,Traded,*3D
+410,Juan Carlos Oviedo\nunezle01,24,KCR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,/1
+411,Jerry Owens*\owensje01,25,CHW,12,9,0,0,0,1,-1,1,0.1,0,1,0.1,.506,.500,0.0,0.1,0,,Traded,/D89
+412,Pablo Ozuna\ozunapa01,31,CHW,79,203,4,1,0,-13,-2,-10,-1.0,8,-3,-0.2,.488,.494,1.0,-1.4,10,$500000,Free Agency,75/D49
+413,Vicente Padilla\padilvi01,28,TEX,1,2,-1,0,0,0,0,0,0.0,0,0,0.0,.471,.500,0.0,0.0,0,$4410000,Free Agency,1
+414,Jonathan Papelbon\papeljo01,25,BOS,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$335400,Amateur Draft,1
+415,Corey Patterson*\patteco01,26,BAL,135,499,-3,5,4,15,3,24,2.4,19,43,4.2,.517,.514,2.7,1.8,28,$2800000,Traded,*8
+416,Josh Paul\pauljo01,31,TBD,58,165,-3,-1,0,-3,3,-5,-0.5,6,1,0.1,.492,.497,0.4,0.0,4,$475000,Traded,2/D7
+417,David Pauley\pauleda01,23,BOS,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,/1
+418,Jay Payton\paytoja01,33,OAK,142,588,-1,-1,1,3,-4,-2,-0.1,22,20,2.0,.499,.499,1.7,0.0,17,$4000000,Traded,*789/D
+419,Dustin Pedroia\pedrodu01,22,BOS,31,98,-8,-2,0,-3,1,-11,-1.1,4,-8,-0.8,.464,.493,-0.5,-0.2,-5,,Amateur Draft,4/6
+420,Carlos Pena*\penaca01,28,BOS,18,37,0,0,0,1,-1,-1,-0.1,1,1,0.1,.497,.500,0.0,0.1,0,,Free Agency,3/7
+421,Wily Mo Pena\penawi01,24,BOS,84,304,5,-1,0,-7,-2,-5,-0.5,11,6,0.6,.494,.497,1.3,-0.9,13,$1250000,Traded,987/D
+422,Hayden Penn\pennha01,21,BAL,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+423,Jhonny Peralta\peraljh01,24,CLE,149,632,-9,-3,-3,-7,8,-15,-1.4,23,9,0.9,.490,.491,1.6,0.1,16,$377300,Amateur Free Agent,*6/D
+424,Joel Peralta\peraljo01,30,KCR,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Waivers,1
+425,Antonio Perez\perezan01,26,OAK,57,109,-14,-1,0,0,-1,-15,-1.5,4,-11,-1.1,.474,.491,-1.1,-0.1,-11,$334500,Traded,5D/64
+426,Eduardo Perez\perezed01,36,2TM,80,210,-1,-1,-1,-2,-5,-10,-1.0,8,-2,-0.3,.487,.496,0.0,-0.7,0,$1750000,Free Agency,3/9
+427,Neifi Perez#\perezne01,33,DET,21,70,-8,0,0,1,1,-6,-0.6,3,-3,-0.3,.472,.496,-0.4,0.2,-4,,Traded,4/65D
+428,Odalis Perez*\perezod01,28,KCR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,1
+429,Rafael Perez*\perezra01,24,CLE,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Amateur Free Agent,1
+430,Tomas Perez#\perezto03,32,TBD,99,254,-26,1,1,8,3,-13,-1.2,10,-3,-0.3,.487,.492,-1.1,1.1,-11,,Free Agency,564/937
+431,Glen Perkins*\perkigl01,23,MIN,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+432,Roberto Petagine*\petagro01,35,SEA,31,32,-1,0,0,0,0,-1,-0.1,1,0,0.0,.497,.499,0.0,0.0,0,$450000,Free Agency,/3
+433,Andy Phillips\phillan01,29,NYY,110,263,-9,0,-1,0,-4,-14,-1.3,10,-4,-0.4,.488,.492,-0.4,-0.4,-4,$333150,Amateur Draft,35/D4
+434,Jason Phillips\phillja04,29,TOR,25,51,-1,-1,0,-2,-1,-6,-0.6,2,-4,-0.4,.477,.497,-0.2,-0.3,-2,,Free Agency,/2D3
+435,Paul Phillips\phillpa01,29,KCR,23,69,-4,1,0,2,0,0,0.0,3,3,0.3,.500,.500,0.1,0.2,1,,Amateur Draft--no sign,2/3D
+436,A.J. Pierzynski*\pierza.01,29,CHW,140,543,-5,0,1,-3,8,1,0.2,20,21,2.1,.501,.501,2.4,0.6,24,$4000000,Free Agency,*2
+437,Joel Pineiro\pineijo01,27,SEA,2,6,-2,0,0,0,1,-1,-0.1,0,-1,-0.1,.462,.500,-0.1,0.0,-1,$6800000,Amateur Draft,1
+438,Scott Podsednik*\podsesc01,30,CHW,139,592,-19,-2,0,1,-5,-25,-2.3,22,-3,-0.3,.483,.485,-0.3,-0.3,-4,$2075000,Traded,*7/D
+439,Placido Polanco\polanpl01,30,DET,110,495,-9,0,-1,9,3,2,0.3,17,19,1.9,.502,.501,1.1,1.2,10,$4600000,Traded,4
+440,Cliff Politte\politcl01,32,CHW,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$1200000,Free Agency,1
+441,Sidney Ponson\ponsosi01,29,NYY,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,/1
+442,Jorge Posada#\posadjo01,34,NYY,143,545,18,-4,0,-2,8,20,2.0,20,40,4.0,.513,.512,4.2,0.6,42,$12000000,Amateur Draft,*2/D3
+443,Curtis Pride*\pridecu01,37,LAA,22,33,0,0,0,3,-1,2,0.2,1,3,0.3,.509,.501,0.0,0.2,0,,Free Agency,/7D9
+444,Scott Proctor\proctsc01,29,NYY,6,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$352675,Traded,1
+445,Nick Punto#\puntoni01,28,MIN,135,524,-6,3,2,16,3,18,1.9,20,38,3.8,.513,.511,2.2,2.0,22,$690000,Traded,564/8D7
+446,J.J. Putz\putzjj01,29,SEA,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$415000,Amateur Draft,1
+447,Robb Quinlan\quinlro01,29,LAA,86,244,5,0,2,-4,-4,-1,-0.1,9,8,0.8,.499,.499,1.2,-0.7,12,$365000,Amateur Draft,357/9D
+448,Guillermo Quiroz\quirogu01,24,SEA,1,2,-1,0,0,0,0,-1,-0.1,0,-1,0.0,.445,.500,0.0,0.0,0,$327500,Waivers,/2
+449,Josh Rabe\rabejo01,27,MIN,24,51,1,0,-1,2,-2,0,0.0,2,2,0.2,.501,.500,0.0,0.1,0,,Amateur Draft,D7/9
+450,Mike Rabelo#\rabelmi01,26,DET,1,1,0,0,0,0,0,0,0.0,0,0,0.0,.460,.500,0.0,0.0,0,,Amateur Draft,/D
+451,Brad Radke\radkebr01,33,MIN,1,2,-1,0,0,0,0,0,0.0,0,0,0.0,.471,.500,0.0,0.0,0,$9000000,Free Agency,1
+452,Manny Ramirez\ramirma02,34,BOS,130,558,46,-2,-2,-12,-5,26,2.5,20,46,4.5,.519,.515,5.7,-1.6,58,$18279238,Free Agency,*7/D
+453,Darrell Rasner\rasneda01,25,NYY,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Waivers,/1
+454,Chris Ray\raych01,24,BAL,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$335000,Amateur Draft,1
+455,Mark Redman*\redmama01,32,KCR,1,3,0,0,0,0,0,1,0.1,0,1,0.1,.547,.500,0.1,0.0,1,$4500000,Traded,1
+456,Mike Redmond\redmomi01,35,MIN,47,190,1,-2,-1,0,3,1,0.2,7,9,0.8,.503,.501,0.8,0.3,9,$900000,Free Agency,2/D
+457,Jeremy Reed*\reedje03,25,SEA,67,229,-14,0,1,1,1,-11,-1.1,9,-3,-0.3,.484,.493,-0.3,0.3,-4,$375000,Traded,8
+458,Kevin Reese*\reeseke01,28,NYY,10,14,1,0,0,0,0,1,0.1,1,2,0.2,.510,.501,0.2,0.0,2,,Traded,/D79
+459,Dennys Reyes\reyesde01,29,MIN,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Free Agency,1
+460,John Rheinecker*\rheinjo01,27,TEX,1,1,0,0,0,0,0,0,0.0,0,0,0.0,.540,.500,0.0,0.0,0,,Traded,1
+461,Shawn Riggans\riggash01,25,TBD,10,33,-3,0,0,1,0,-2,-0.2,1,-1,-0.1,.480,.499,-0.2,0.1,-2,,Amateur Draft,/2D
+462,Juan Rincon\rincoju01,27,MIN,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$900000,Amateur Free Agent,1
+463,Alex Rios\riosal01,25,TOR,128,498,12,3,0,18,-4,29,2.9,19,47,4.6,.522,.517,2.9,1.4,29,$354000,Amateur Draft,*9/8
+464,David Riske\riskeda01,29,2TM,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$1800000,Traded,/1
+465,Juan Rivera\riverju01,27,LAA,124,494,19,-3,-2,6,-5,16,1.6,19,35,3.4,.513,.510,2.8,0.2,29,$1250000,Traded,798D
+466,Mariano Rivera\riverma01,36,NYY,10,1,0,0,0,0,0,0,0.0,0,0,0.0,.499,.500,0.0,0.0,0,$10500000,Amateur Free Agent,1
+467,Rene Rivera\riverre01,22,SEA,35,106,-11,0,0,1,2,-9,-0.8,4,-5,-0.5,.476,.495,-0.6,0.3,-6,,Amateur Draft,2
+468,Sendy Rleal\rlealse01,26,BAL,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$327000,Amateur Free Agent,1
+469,Brian Roberts#\roberbr01,28,BAL,138,630,0,3,-2,8,4,12,1.3,22,34,3.3,.509,.507,2.6,1.2,26,$3075000,Amateur Draft,*4/D
+470,Ryan Roberts\roberry01,25,TOR,9,14,-2,0,0,1,0,-1,-0.1,1,-1,-0.1,.488,.499,-0.2,0.1,-2,,Amateur Draft,/4D
+471,Nate Robertson\roberna01,28,DET,2,6,-1,0,0,0,1,0,0.0,0,0,0.0,.497,.500,0.0,0.0,0,$402500,Traded,1
+472,Kerry Robinson*\robinke02,32,KCR,18,67,-5,0,1,-4,0,-8,-0.7,3,-5,-0.5,.459,.495,-0.1,-0.4,-1,,Free Agency,8/79
+473,Fernando Rodney\rodnefe01,29,DET,4,1,0,0,0,0,0,0,0.0,0,0,0.0,.496,.500,0.0,0.0,0,$385000,Amateur Free Agent,1
+474,Alex Rodriguez\rodrial01,30,NYY,154,674,31,2,-1,-13,3,22,2.2,24,46,4.5,.513,.513,5.7,-0.9,59,$21680727,Traded,*5/D
+475,Eddy Rodriguez\rodried03,24,BAL,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,/1
+476,Francisco Rodriguez\rodrifr03,24,LAA,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$3775000,Amateur Free Agent,1
+477,Ivan Rodriguez\rodriiv01,34,DET,136,580,-1,2,0,3,7,10,1.1,21,32,3.1,.507,.506,2.9,1.1,29,$10616410,Free Agency,*2/3D4
+478,Luis Rodriguez#\rodrilu01,26,MIN,59,132,-6,1,0,-3,1,-7,-0.7,5,-2,-0.2,.488,.496,0.1,-0.2,1,$332000,Free Agency,54/D63
+479,Eddie Rogers\rogered01,27,BAL,17,26,-4,0,0,-3,0,-7,-0.7,1,-6,-0.6,.461,.496,-0.3,-0.3,-3,,Free Agency,/457D96
+480,Kenny Rogers*\rogerke01,41,DET,2,7,-1,0,0,0,1,0,0.0,0,0,0.0,.502,.500,0.0,0.0,0,$8000000,Free Agency,1
+481,Davis Romero*\romerda01,23,TOR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Free Agent,/1
+482,J.C. Romero#\romerj.01,30,LAA,6,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$2200000,Traded,1
+483,Matt Roney\roneyma01,26,OAK,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,/1
+484,Mike Rouse*\rousemi01,26,OAK,8,26,0,0,0,0,0,-1,-0.1,1,0,0.0,.493,.500,0.0,0.0,0,,Traded,/4
+485,Josh Rupe\rupejo01,23,TEX,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$328000,Traded,1
+486,B.J. Ryan*\ryanb.01,30,TOR,6,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$4000000,Free Agency,1
+487,Kirk Saarloos\saarlki01,27,OAK,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$354000,Traded,1
+488,CC Sabathia*\sabatc.01,25,CLE,3,9,-1,0,0,0,1,0,0.0,0,0,0.0,.509,.500,0.0,0.0,0,$7000000,Amateur Draft,1
+489,Juan Salas\salasju01,27,TBD,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Free Agent,/1
+490,Tim Salmon\salmoti01,37,LAA,76,244,6,0,-2,-1,-5,-2,-0.1,9,8,0.7,.498,.499,0.9,-0.6,8,$400000,Free Agency,D/97
+491,Angel Sanchez\sanchan02,22,KCR,8,28,-3,0,1,1,0,-1,-0.1,1,0,0.0,.486,.499,-0.1,0.1,-1,,Amateur Draft,/46
+492,Reggie Sanders\sandere02,38,KCR,88,358,-8,-2,-1,4,-4,-11,-1.0,13,3,0.3,.488,.494,-0.1,0.0,-1,$5000000,Free Agency,9D
+493,Ervin Santana\santaer01,23,LAA,2,4,0,0,0,0,1,0,0.0,0,0,0.0,.510,.500,0.0,0.0,0,$350000,Amateur Free Agent,1
+494,Johan Santana*\santajo02,27,MIN,1,2,-1,0,0,0,0,0,0.0,0,0,0.0,.471,.500,0.0,0.0,0,$8750000,Traded,1
+495,Ramon Santiago#\santira01,26,DET,43,86,-9,0,0,4,1,-3,-0.3,3,0,0.0,.493,.498,-0.4,0.6,-4,$375000,Free Agency,64/5D
+496,Scott Sauerbeck\sauersc01,34,2TM,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$1200000,Free Agency,1
+497,Joe Saunders*\saundjo01,25,LAA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,1
+498,Curt Schilling\schilcu01,39,BOS,1,2,0,0,0,0,0,1,0.1,0,1,0.1,.545,.500,0.1,0.0,1,$13000000,Traded,1
+499,Scott Schoeneweis*\schoesc01,32,TOR,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$2750000,Free Agency,1
+500,Marco Scutaro\scutama01,30,OAK,117,423,1,-1,-2,-17,5,-14,-1.3,16,2,0.2,.488,.492,1.9,-1.1,19,$340000,Waivers,645/7
+501,Rudy Seanez\seaneru01,37,BOS,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$1900000,Free Agency,1
+502,Bobby Seay*\seaybo01,28,DET,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$375000,Free Agency,1
+503,Jae Weong Seo\seoja01,29,TBD,2,2,-1,0,0,0,0,0,0.0,0,0,0.0,.486,.500,0.0,0.0,0,,Traded,1
+504,Richie Sexson\sexsori01,31,SEA,158,663,12,-3,-1,4,-9,2,0.3,25,27,2.7,.501,.501,2.3,-0.4,23,$13000000,Free Agency,*3/D
+505,Ryan Shealy\shealry01,26,KCR,51,210,-1,0,0,6,-3,2,0.2,8,10,1.0,.503,.501,0.4,0.3,3,,Traded,3
+506,Gary Sheffield\sheffga01,37,NYY,39,166,3,1,-1,-2,-2,-2,-0.2,6,4,0.4,.496,.499,0.6,-0.4,6,$10756171,Free Agency,9/3D
+507,Chris Shelton\sheltch01,26,DET,115,412,3,-1,-2,3,-6,-2,-0.2,15,13,1.3,.498,.499,1.1,-0.2,10,$365000,Rule 5 Draft,*3
+508,George Sherrill*\sherrge01,29,SEA,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$333000,Purchased,1
+509,James Shields\shielja02,24,TBD,3,8,0,0,0,0,1,1,0.1,0,1,0.1,.536,.501,0.1,0.0,1,,Amateur Draft,1
+510,Scot Shields\shielsc01,30,LAA,4,1,0,0,0,0,0,0,0.0,0,0,0.0,.496,.500,0.0,0.0,0,$2100000,Amateur Draft,1
+511,Kelly Shoppach\shoppke01,26,CLE,41,120,-4,-1,0,4,2,1,0.1,5,5,0.5,.502,.500,0.1,0.6,1,$327000,Traded,2
+512,Brian Shouse*\shousbr01,37,TEX,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$725000,Free Agency,/1
+513,Ruben Sierra#\sierrru01,40,MIN,14,33,-3,0,0,0,-1,-4,-0.4,1,-2,-0.2,.475,.498,-0.2,-0.1,-2,,Free Agency,/D
+514,Brian Sikorski\sikorbr01,31,CLE,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,1
+515,Carlos Silva\silvaca01,27,MIN,2,3,0,0,0,0,0,0,0.0,0,0,0.0,.517,.500,0.0,0.0,0,$3200000,Traded,1
+516,Andy Sisco*\siscoan01,23,KCR,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$346500,Rule 5 Draft,1
+517,Grady Sizemore*\sizemgr01,23,CLE,162,751,31,6,2,0,4,43,4.2,25,69,6.6,.525,.525,6.7,0.5,69,$500000,Traded,*8/D
+518,Brian Slocum\slocubr01,25,CLE,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+519,Aaron Small\smallaa01,34,NYY,1,2,-1,0,0,0,0,0,0.0,0,0,0.0,.471,.500,0.0,0.0,0,$1200000,Free Agency,1
+520,Matt Smith*\smithma04,27,NYY,1,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Amateur Draft,1
+521,Mike Smith\smithmi06,28,MIN,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,/1
+522,Chris Snelling*\snellch02,24,SEA,36,119,2,0,0,-2,-1,0,0.0,4,5,0.5,.500,.500,0.7,-0.3,6,$328500,Amateur Free Agent,9/87
+523,J.T. Snow*\snowj.01,38,BOS,38,53,-3,0,0,-1,-1,-6,-0.5,2,-4,-0.4,.486,.497,-0.3,-0.2,-3,$2000000,Free Agency,3/D
+524,Kyle Snyder#\snydeky01,28,2TM,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Waivers,1
+525,Rafael Soriano\soriara01,26,SEA,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$450000,Amateur Free Agent,1
+526,Jeremy Sowers*\sowerje01,23,CLE,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,1
+527,Justin Speier\speieju01,32,TOR,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$2250000,Traded,1
+528,Chris Spurling\spurlch01,29,DET,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$725000,Traded,/1
+529,Matt Stairs*\stairma01,38,3TM,117,394,-3,0,1,-1,-9,-12,-1.1,15,3,0.3,.490,.498,0.4,-0.9,4,$1350000,Waivers,D
+530,Steve Stemle\stemlst01,29,KCR,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$330000,Free Agency,/1
+531,Adam Stern*\sternad01,26,BOS,10,21,-2,0,0,0,0,-2,-0.2,1,-1,-0.1,.483,.499,-0.1,0.0,-1,$335000,Rule 5 Draft,/87
+532,Chris Stewart\stewach01,24,CHW,6,8,-2,0,0,1,0,-1,-0.1,0,-1,-0.1,.480,.499,-0.2,0.1,-2,,Amateur Draft,/2D
+533,Shannon Stewart\stewash01,32,MIN,44,190,-1,-1,-1,-1,-2,-6,-0.6,7,1,0.1,.487,.496,0.2,-0.3,2,$6500000,Traded,7D
+534,Kelly Stinnett\stinnke01,36,NYY,34,87,-6,0,0,-1,2,-5,-0.5,3,-2,-0.2,.485,.497,-0.1,0.1,-1,$650000,Free Agency,2
+535,Brian Stokes\stokebr01,26,TBD,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Free Agent,/1
+536,Huston Street\streehu01,22,OAK,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$339625,Amateur Draft,1
+537,Tanyon Sturtze\sturtta01,35,NYY,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$1500000,Traded,1
+538,Ichiro Suzuki*\suzukic01,32,SEA,161,752,8,8,4,13,-4,29,2.9,25,54,5.3,.517,.517,4.0,1.0,41,$12500000,Purchased,*98/D
+539,Mike Sweeney\sweenmi01,32,KCR,60,252,-1,-1,0,0,-5,-7,-0.7,9,2,0.2,.488,.496,0.2,-0.5,2,$11000000,Amateur Draft,D
+540,Ryan Sweeney*\sweenry01,21,CHW,18,35,-4,1,0,-2,0,-6,-0.6,1,-5,-0.5,.467,.496,-0.3,-0.2,-3,,Amateur Draft,/879D
+541,Nick Swisher#\swishni01,25,OAK,157,672,22,-2,-1,0,-8,11,1.1,25,36,3.5,.507,.506,3.5,-0.8,35,$335000,Amateur Draft,37/D89
+542,Jon Switzer*\switzjo01,26,TBD,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,,Amateur Draft,1
+543,Brian Tallet*\tallebr01,28,TOR,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$327000,Traded,1
+544,Jordan Tata\tatajo01,24,DET,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$327000,Amateur Draft,/1
+545,Fernando Tatis\tatisfe01,31,BAL,28,64,-1,0,0,0,-1,-2,-0.2,2,1,0.1,.494,.499,0.1,-0.1,1,,Free Agency,/D53749
+546,Ty Taubenheim\taubety01,23,TOR,3,3,0,0,0,0,0,0,0.0,0,0,0.0,.512,.500,0.0,0.0,0,,Traded,1
+547,Julian Tavarez*\tavarju01,33,BOS,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$3350000,Free Agency,1
+548,Mark Teahen*\teahema01,24,KCR,109,439,14,5,2,-1,2,22,2.1,16,38,3.7,.519,.513,3.8,0.2,39,$344500,Traded,*5
+549,Mark Teixeira#\teixema01,26,TEX,162,727,22,0,-1,8,-9,19,2.0,25,45,4.4,.512,.512,3.6,0.0,37,$6400000,Amateur Draft,*3/D
+550,Miguel Tejada\tejadmi01,32,BAL,162,709,24,1,0,-11,7,20,2.1,25,46,4.5,.512,.512,5.6,-0.3,57,$11811415,Free Agency,*6D
+551,Rob Tejeda\tejedro01,24,TEX,2,3,-1,0,0,0,0,0,0.0,0,0,0.0,.478,.500,0.0,0.0,0,,Traded,1
+552,Luis Terrero\terrelu01,26,BAL,27,42,-3,-1,0,-1,-1,-6,-0.5,2,-4,-0.4,.480,.497,-0.3,-0.2,-3,,Free Agency,7/89D
+553,Marcus Thames\thamema01,29,DET,110,390,11,-2,2,-7,-7,-3,-0.3,15,12,1.1,.497,.498,1.8,-1.3,18,$342000,Free Agency,7D/9
+554,Frank Thomas\thomafr04,38,OAK,137,559,30,-4,-2,0,-13,11,1.1,21,32,3.2,.508,.507,3.2,-1.2,32,$3100000,Free Agency,*D
+555,Jim Thome*\thomeji01,35,CHW,143,610,40,-1,2,0,-13,28,2.8,22,50,4.9,.519,.517,4.9,-1.2,50,$14166667,Traded,*D/3
+556,Kevin Thompson\thompke01,26,NYY,19,37,2,1,0,1,-1,2,0.2,1,4,0.4,.512,.501,0.3,0.0,3,,Amateur Draft,9/78D
+557,Matt Thornton*\thornma01,29,CHW,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$355000,Traded,1
+558,Terry Tiffee#\tiffete01,27,MIN,20,49,-2,0,0,1,-1,-2,-0.2,2,0,0.0,.490,.499,-0.1,0.1,-1,,Amateur Draft,/5D3
+559,Mike Timlin\timlimi01,40,BOS,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$3023894,Free Agency,1
+560,Josh Towers\towerjo01,29,TOR,2,5,-1,0,0,0,1,0,0.0,0,0,0.0,.504,.500,0.0,0.0,0,$2300000,Free Agency,1
+561,Sean Tracey*\tracese01,25,CHW,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+562,Jason Tyner*\tynerja01,29,MIN,62,232,-3,0,0,7,-2,2,0.2,9,11,1.1,.503,.501,0.4,0.5,4,,Free Agency,78D/9
+563,Melvin Upton Jr.\uptonbj01,21,TBD,50,189,-12,1,1,-4,1,-13,-1.2,7,-6,-0.5,.475,.492,-0.2,-0.3,-2,,Amateur Draft,5
+564,Juan Uribe\uribeju01,27,CHW,132,495,-20,-1,1,1,7,-12,-1.2,19,6,0.6,.491,.493,0.5,0.8,5,$3150000,Traded,*6
+565,Jermaine Van Buren\vanbuje01,25,BOS,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Purchased,1
+566,Jason Varitek#\varitja01,34,BOS,103,416,-11,-2,0,-1,6,-8,-0.7,16,8,0.8,.492,.495,0.9,0.6,9,$10000000,Free Agency,2
+567,Javier Vazquez\vazquja01,29,CHW,1,2,1,0,0,0,0,1,0.1,0,1,0.1,.612,.501,0.1,0.0,1,$12000000,Traded,1
+568,Ramon Vazquez*\vazqura01,29,CLE,34,77,-6,0,-1,-8,1,-15,-1.4,3,-12,-1.1,.459,.491,-0.4,-0.7,-4,$700000,Traded,5/46
+569,Jose Veras\verasjo01,25,NYY,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,1
+570,Justin Verlander\verlaju01,23,DET,1,2,-1,0,0,0,0,0,0.0,0,0,0.0,.471,.500,0.0,0.0,0,$980000,Amateur Draft,1
+571,Ron Villone*\villoro01,36,NYY,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$2250000,Traded,1
+572,Edinson Volquez\volqued01,22,TEX,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Free Agent,/1
+573,Doug Waechter\waechdo01,25,TBD,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$355900,Amateur Draft,1
+574,Tim Wakefield\wakefti01,39,BOS,1,4,-1,0,0,0,1,-1,-0.1,0,-1,-0.1,.439,.500,-0.1,0.0,-1,$4000000,Free Agency,1
+575,Jamie Walker*\walkeja01,34,DET,3,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$1250000,Free Agency,1
+576,Pete Walker\walkepe01,37,TOR,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$650000,Free Agency,1
+577,Tyler Walker\walkety01,30,TBD,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,1
+578,Chien-Ming Wang\wangch01,26,NYY,1,4,-1,0,0,0,1,-1,-0.1,0,-1,-0.1,.441,.500,-0.1,0.0,-1,$353175,Amateur Free Agent,1
+579,John Wasdin\wasdijo01,33,TEX,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,/1
+580,Jarrod Washburn*\washbja01,31,SEA,2,4,0,0,0,0,1,0,0.0,0,0,0.0,.513,.500,0.0,0.0,0,$7450000,Free Agency,1
+581,Jeff Weaver\weaveje01,29,LAA,2,4,0,0,0,0,1,0,0.0,0,0,0.0,.521,.500,0.0,0.0,0,$8325000,Free Agency,1
+582,Jered Weaver\weaveje02,23,LAA,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,1
+583,Todd Wellemeyer\welleto01,27,KCR,4,2,-1,0,0,0,0,0,0.0,0,0,0.0,.493,.500,0.0,0.0,0,,Waivers,1
+584,David Wells*\wellsda01,43,BOS,0,0,0,0,0,0,0,0,,0,0,,,,,,0,$4075000,Free Agency,/1
+585,Kip Wells\wellski01,29,TEX,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Traded,/1
+586,Vernon Wells\wellsve01,27,TOR,154,677,24,-1,1,11,3,39,3.9,24,64,6.2,.525,.523,5.2,1.5,53,$4470000,Amateur Draft,*8/D
+587,Jake Westbrook\westbja01,28,CLE,2,5,1,0,0,0,1,2,0.1,0,2,0.1,.570,.501,0.1,0.0,2,$4250000,Traded,1
+588,Rondell White\whitero02,34,MIN,99,355,-15,-1,-1,-2,-7,-25,-2.4,13,-11,-1.1,.476,.485,-0.9,-0.8,-9,$2500000,Free Agency,D7
+589,Bob Wickman\wickmbo01,37,CLE,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$5000000,Free Agency,1
+590,Chris Widger\widgech01,35,2TM,36,107,-10,-1,0,-2,1,-12,-1.2,4,-8,-0.8,.466,.495,-0.6,-0.1,-6,$650000,Free Agency,/2D
+591,Ty Wigginton\wiggity01,28,TBD,122,486,8,-4,-1,-5,-1,-3,-0.2,18,16,1.5,.498,.498,2.0,-0.6,21,$675000,Free Agency,345/97D
+592,Brad Wilkerson*\wilkebr01,29,TEX,95,365,-8,1,0,0,-4,-11,-1.1,14,2,0.3,.488,.493,0.3,-0.4,2,$3900000,Traded,7D/98
+593,Bernie Williams#\willibe02,37,NYY,131,462,-5,-1,1,-11,-5,-22,-2.1,17,-4,-0.4,.484,.487,0.7,-1.5,7,$1500000,Free Agency,9D8/7
+594,Todd Williams\willito02,35,BAL,4,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$775000,Free Agency,1
+595,Reggie Willits#\willire03,25,LAA,28,58,-1,0,0,0,0,0,0.0,2,2,0.2,.500,.500,0.2,0.0,2,,Amateur Draft,8/D9
+596,C.J. Wilson*\wilsocj01,25,TEX,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$331000,Amateur Draft,1
+597,Craig Wilson\wilsocr03,29,NYY,40,109,-7,0,-1,-4,-2,-13,-1.3,4,-9,-0.9,.467,.492,-0.5,-0.5,-5,,Traded,3/9D
+598,Kris Wilson\wilsokr01,29,NYY,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Free Agency,/1
+599,Vance Wilson\wilsova01,33,DET,56,168,-1,-3,0,4,3,4,0.4,6,10,1.0,.506,.502,0.6,0.7,6,$750000,Traded,2
+600,Jason Windsor\windsja01,23,OAK,0,0,0,0,0,0,0,0,,0,0,,,,,,0,,Amateur Draft,/1
+601,Jay Witasick\witasja01,33,OAK,1,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$1000000,Traded,1
+602,Kevin Witt*\wittke01,30,TBD,19,61,-9,0,0,-2,-1,-12,-1.2,2,-10,-1.0,.435,.492,-0.8,-0.3,-8,,Free Agency,D/3
+603,Mike Wood\woodmi01,26,KCR,2,3,-1,0,0,0,0,0,0.0,0,0,0.0,.478,.500,0.0,0.0,0,$350000,Traded,1
+604,Jake Woods*\woodsja01,24,SEA,1,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$332000,Waivers,1
+605,Jaret Wright\wrighja02,30,NYY,3,5,-1,0,0,0,1,0,0.0,0,0,0.0,.503,.500,0.0,0.0,0,$7666667,Free Agency,1
+606,Esteban Yan\yanes01,31,LAA,2,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$1250000,Free Agency,1
+607,Kevin Youkilis\youklke01,27,BOS,147,680,9,0,-1,3,-8,4,0.5,23,27,2.7,.503,.502,2.4,-0.4,24,$354600,Amateur Draft,*375
+608,Delmon Young\youngde03,20,TBD,30,131,2,0,0,3,-1,5,0.5,5,9,0.9,.515,.503,0.6,0.2,6,,Amateur Draft,9/8
+609,Dmitri Young#\youngdm01,32,DET,48,184,-4,0,0,0,-4,-8,-0.8,7,-2,-0.2,.483,.495,-0.1,-0.4,-2,$8000000,Traded,D/3
+610,Eric Young Sr.\younger01,39,TEX,4,12,1,0,0,0,0,0,0.0,0,1,0.1,.508,.500,0.1,0.0,1,,Free Agency,/4D7
+611,Michael Young\youngmi02,29,TEX,162,748,13,0,-2,-6,8,13,1.4,25,39,3.8,.508,.508,4.4,0.3,44,$3075000,Traded,*6/D
+612,Gregg Zaun#\zaungr01,35,TOR,99,339,5,-2,-1,0,3,5,0.5,13,18,1.8,.505,.503,1.8,0.3,18,$1000000,Free Agency,2D
+613,Barry Zito*\zitoba01,28,OAK,2,4,-1,0,0,0,1,-1,-0.1,0,-1,-0.1,.472,.500,-0.1,0.0,-1,$7900000,Amateur Draft,1
+614,Ben Zobrist#\zobribe01,25,TBD,52,198,-13,-2,1,-2,3,-14,-1.3,7,-6,-0.6,.474,.492,-0.4,0.1,-4,,Traded,6
+615,Joel Zumaya\zumayjo01,21,DET,5,0,0,0,0,0,0,0,0.0,0,0,0.0,.500,.500,0.0,0.0,0,$327000,Amateur Draft,1

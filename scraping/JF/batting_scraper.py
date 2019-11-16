@@ -48,6 +48,35 @@ DAYS_BW_TEAM_GAMES_STDEV = []
 
 
 #lists for batting stats
+PLATEAPP = []
+PLATEAPP_MEAN = []
+PLATEAPP_STDEV = []
+RUNS = []
+RUNS_MEAN = []
+RUNS_STDEV = []
+IBB = []
+IBB_MEAN = []
+IBB_STDEV = []
+SH = []
+SH_MEAN = []
+SH_STDEV = []
+ROE = []
+ROE_MEAN = []
+ROE_STDEV = []
+GDP = []
+GDP_MEAN = []
+GDP_STDEV = []
+SB = []
+SB_MEAN = []
+SB_STDEV = []
+CS = []
+CS_MEAN = []
+CS_STDEV = []
+ALI_MEAN = []
+ALI_STDEV = []
+RE24_MEAN = []
+RE24_STDEV = []
+
 ATBATS = []
 ATBATS_MEAN = []
 ATBATS_STDEV = []
@@ -161,18 +190,32 @@ for year in range(2000,2020):
                 body = soup_PG.find('tbody')
                 body_TEAMID = body.find_all('td', {'data-stat':'team_ID'})
                 body_GTM = body.find_all('td', {'data-stat':'team_game_num'})
+                body_PA = body.find_all('td', {'data-stat':'PA'})
                 body_AB = body.find_all('td', {'data-stat':'AB'})
+                body_R = body.find_all('td', {'data-stat':'R'})
                 body_H = body.find_all('td', {'data-stat':'H'})
                 body_BB = body.find_all('td', {'data-stat':'BB'})
+                body_IBB = body.find_all('td', {'data-stat':'IBB'})
                 body_HBP = body.find_all('td', {'data-stat':'HBP'})
                 body_2B = body.find_all('td', {'data-stat':'2B'})
                 body_3B = body.find_all('td', {'data-stat':'3B'})
                 body_HR = body.find_all('td', {'data-stat':'HR'})
                 body_RBI = body.find_all('td', {'data-stat':'RBI'})
                 body_SO = body.find_all('td', {'data-stat':'SO'})
+                body_SH = body.find_all('td', {'data-stat':'SH'})
                 body_SF = body.find_all('td', {'data-stat':'SF'})
+                body_ROE = body.find_all('td', {'data-stat':'ROE'})
+                body_GIDP = body.find_all('td', {'data-stat':'GIDP'})
+                body_SB = body.find_all('td', {'data-stat':'SB'})
+                body_CS = body.find_all('td', {'data-stat':'CS'})
+                body_BA = body.find_all('td', {'data-stat':'batting_avg'})
+                body_OBP = body.find_all('td', {'data-stat':'onbase_perc'})
+                body_SLG = body.find_all('td', {'data-stat':'slugging_perc'})
+                body_OPS = body.find_all('td', {'data-stat':'onbase_plus_slugging'})
+                body_ALI = body.find_all('td', {'data-stat':'leverage_index_avg'})
                 body_WPA = body.find_all('td', {'data-stat':'wpa_bat'})
                 body_BOP = body.find_all('td', {'data-stat':'batting_order_position'})
+                body_RE24 = body.find_all('td', {'data-stat':'re24_bat'})
 
                 team_id = []
                 gtm = []
@@ -190,9 +233,21 @@ for year in range(2000,2020):
                 sacrifice_f = []
                 ba = []
                 obp = []
+                obp_body = []
                 slg = []
+                slg_body = []
                 wpa = []
                 batrank = []
+                plateapp = []
+                runs = []
+                ibb = []
+                sh = []
+                roe = []
+                gdp = []
+                sb = []
+                cs = []
+                ali = []
+                re24 = []
 
                 for n in range(len(body_AB)):
 
@@ -219,6 +274,18 @@ for year in range(2000,2020):
                         _wpa = float(body_WPA[n].text)
                     except:
                         _wpa = 0
+                    _plateapp = int(body_PA[n].text) if body_PA[n].text != '' else 0
+                    _runs = int(body_R[n].text) if body_R[n].text != '' else 0
+                    _ibb = int(body_IBB[n].text) if body_IBB[n].text != '' else 0
+                    _sh = int(body_SH[n].text) if body_SH[n].text != '' else 0
+                    _roe = int(body_ROE[n].text) if body_ROE[n].text != '' else 0
+                    _gdp = int(body_GIDP[n].text) if body_GIDP[n].text != '' else 0
+                    _sb = int(body_SB[n].text) if body_SB[n].text != '' else 0
+                    _cs = int(body_CS[n].text) if body_CS[n].text != '' else 0
+                    _ali = float(body_ALI[n].text) if body_ALI[n].text != '' else 0
+                    _re24 = float(body_RE24[n].text) if body_RE24[n].text != '' else 0
+                    _obp_body = float(body_OBP[n].text) if body_OBP[n].text != '' else 0
+                    _slg_body = float(body_SLG[n].text) if body_SLG[n].text != '' else 0
 
                     team_id.append(_team_id)
                     gtm.append(_gtm)
@@ -235,10 +302,24 @@ for year in range(2000,2020):
                     sacrifice_f.append(_sf)
                     singles.append(_1b)
 
+                    plateapp.append( _plateapp )
+                    runs.append( _runs )
+                    ibb.append( _ibb )
+                    sh.append( _sh )
+                    roe.append( _roe )
+                    gdp.append( _gdp )
+                    sb.append( _sb )
+                    cs.append( _cs )
+                    ali.append( _ali )
+                    re24.append( _re24 )
+
                     ba.append( (_h / _ab) if _ab > 0 else 0)
                     obp.append(((_h + _bb + _hbp) / (_ab + _bb + _hbp + _sf)) if (_ab + _bb + _hbp + _sf) > 0 else 0 )
                     slg.append(((_1b + 2*_2b + 3*_3b + 4*_hr) / _ab) if _ab > 0 else 0)
                     wpa.append(_wpa)
+
+                    obp_body.append(_obp_body)
+                    slg_body.append(_slg_body)
 
                 for br in body_BOP:
 
@@ -348,12 +429,43 @@ for year in range(2000,2020):
                 SACRIFICE_F.append(sum(sacrifice_f))
                 BA_MEAN.append(stat.mean(ba))
                 BA_STDEV.append(stat.stdev(ba) if len(set(atbats)) > 1 else 0)
+                OBP.append(obp_body[-1])
                 OBP_MEAN.append(stat.mean(obp))
                 OBP_STDEV.append(stat.stdev(obp) if len(set(ba)) > 1 else 0)
+                SLG.append(slg_body[-1])
                 SLG_MEAN.append(stat.mean(slg))
                 SLG_STDEV.append(stat.stdev(slg) if len(set(slg)) > 1 else 0)
                 WPA_MEAN.append(stat.mean(wpa))
                 WPA_STDEV.append(stat.stdev(wpa) if len(set(wpa)) > 1 else 0)
+
+                PLATEAPP.append(sum(plateapp))
+                PLATEAPP_MEAN.append(stat.mean(plateapp))
+                PLATEAPP_STDEV.append(stat.stdev(plateapp) if len(set(plateapp)) > 1 else 0)
+                RUNS.append(sum(runs))
+                RUNS_MEAN.append(stat.mean(runs))
+                RUNS_STDEV.append(stat.stdev(runs) if len(set(runs)) > 1 else 0)
+                IBB.append(sum(ibb))
+                IBB_MEAN.append(stat.mean(ibb))
+                IBB_STDEV.append(stat.stdev(ibb) if len(set(ibb)) > 1 else 0)
+                SH.append(sum(sh))
+                SH_MEAN.append(stat.mean(sh))
+                SH_STDEV.append(stat.stdev(sh) if len(set(sh)) > 1 else 0)
+                ROE.append(sum(roe))
+                ROE_MEAN.append(stat.mean(roe))
+                ROE_STDEV.append(stat.stdev(roe) if len(set(roe)) > 1 else 0)
+                GDP.append(sum(gdp))
+                GDP_MEAN.append(stat.mean(gdp))
+                GDP_STDEV.append(stat.stdev(gdp) if len(set(gdp)) > 1 else 0)
+                SB.append(sum(sb))
+                SB_MEAN.append(stat.mean(sb))
+                SB_STDEV.append(stat.stdev(runs) if len(set(runs)) > 1 else 0)
+                CS.append(sum(cs))
+                CS_MEAN.append(stat.mean(cs))
+                CS_STDEV.append(stat.stdev(cs) if len(set(cs)) > 1 else 0)
+                ALI_MEAN.append(stat.mean(ali))
+                ALI_STDEV.append(stat.stdev(ali) if len(set(ali)) > 1 else 0)
+                RE24_MEAN.append(stat.mean(re24))
+                RE24_STDEV.append(stat.mean(re24) if len(set(re24)) > 1 else 0)
 
                 elapsed_ = perf_counter() - start
 
@@ -453,7 +565,37 @@ data_dict = {
 "SLG_MEAN": SLG_MEAN,
 "SLG_STDEV": SLG_STDEV,
 "WPA_MEAN": WPA_MEAN,
-"WPA_STDEV": WPA_STDEV
+"WPA_STDEV": WPA_STDEV,
+"PLATEAPP": PLATEAPP,
+"PLATEAPP_MEAN": PLATEAPP_MEAN,
+"PLATEAPP_STDEV": PLATEAPP_STDEV,
+"RUNS": RUNS,
+"RUNS_MEAN": RUNS_MEAN,
+"RUNS_STDEV": RUNS_STDEV,
+"IBB": IBB,
+"IBB_MEAN": IBB_MEAN,
+"IBB_STDEV": IBB_STDEV,
+"SH": SH,
+"SH_MEAN": SH_MEAN,
+"SH_STDEV": SH_STDEV,
+"ROE": ROE,
+"ROE_MEAN": ROE_MEAN,
+"ROE_STDEV": ROE_STDEV,
+"GDP": GDP,
+"GDP_MEAN": GDP_MEAN,
+"GDP_STDEV": GDP_STDEV,
+"SB": SB,
+"SB_MEAN": SB_MEAN,
+"SB_STDEV": SB_STDEV,
+"CS": CS,
+"CS_MEAN": CS_MEAN,
+"CS_STDEV": CS_STDEV,
+"ALI_MEAN": ALI_MEAN,
+"ALI_STDEV": ALI_STDEV,
+"RE24_MEAN": RE24_MEAN,
+"RE24_STDEV": RE24_STDEV,
+"OBP": OBP,
+"SLG": SLG
 }
 
 columns =[\
@@ -487,15 +629,23 @@ columns =[\
 "BATRANK_7",\
 "BATRANK_8",\
 "BATRANK_9",\
+"PLATEAPP","PLATEAPP_MEAN", "PLATEAPP_STDEV",\
 "ATBATS",\
 "ATBATS_MEAN",\
 "ATBATS_STDEV",\
+"RUNS", "RUNS_MEAN", "RUNS_STDEV",\
 "HITS",\
 "HITS_MEAN",\
 "HITS_STDEV",\
 "BASESONBALLS",\
 "BASESONBALLS_MEAN",\
 "BASESONBALLS_STDEV",\
+"IBB","IBB_MEAN","IBB_STDEV",\
+"SH","SH_MEAN","SH_STDEV",\
+"ROE","ROE_MEAN","ROE_STDEV",\
+"GDP","GDP_MEAN","GDP_STDEV",\
+"SB","SB_MEAN","SB_STDEV",\
+"CS","CS_MEAN","CS_STDEV",\
 "HITBYPITCH",\
 "HITBYPITCH_MEAN",\
 "HITBYPITCH_STDEV",\
@@ -520,12 +670,16 @@ columns =[\
 "SACRIFICE_F",\
 "BA_MEAN",\
 "BA_STDEV",\
+"OBP",\
 "OBP_MEAN",\
 "OBP_STDEV",\
+"SLG",\
 "SLG_MEAN",\
 "SLG_STDEV",\
 "WPA_MEAN",\
-"WPA_STDEV"]
+"WPA_STDEV",\
+"ALI_MEAN","ALI_STDEV",\
+"RE24_MEAN","RE24_STDEV"]
 
 df = pd.DataFrame(data_dict, columns=columns)
 df.to_csv('batting.csv', mode='w', header = True, index = False)
