@@ -1,4 +1,4 @@
-END=2018
+END=2019
 pickle_file="None"
 for i in $(seq 2000 $END)
 do
