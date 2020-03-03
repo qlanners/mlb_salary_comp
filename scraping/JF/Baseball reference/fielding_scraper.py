@@ -87,7 +87,7 @@ try_counter = 0
 
 misses = open('fielding_misses.txt', 'w')
 
-for year in range(2000,2020):
+for year in range(2019,2020):
     year = str(year)
 
     url_L = "https://www.baseball-reference.com/leagues/MLB/" + year + ".shtml"
@@ -102,7 +102,7 @@ for year in range(2000,2020):
 
 
 
-    for url_team in teams_urls:
+    for url_team in teams_urls[0]:
 
         url_T = 'https://www.baseball-reference.com' + url_team
         res_T = requests.get(url_T)
@@ -429,4 +429,4 @@ columns =[\
 "ERR_STDEV"]
 
 df = pd.DataFrame(data_dict, columns=columns)
-df.to_csv('fielding.csv', mode='w', header = True, index = False)
+df.to_csv('test_fielding.csv', mode='w', header = True, index = False)
