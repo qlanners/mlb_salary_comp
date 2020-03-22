@@ -1,0 +1,4 @@
+52 http://www.prosportstransactions.com/baseball/Search/SearchResults.php?Player=&Team=&BeginDate=1999-10-28&EndDate=2019-10-01&MinorsChkBx=yes&submit=Search&start=1300
+110 http://www.prosportstransactions.com/baseball/Search/SearchResults.php?Player=&Team=&BeginDate=1999-10-28&EndDate=2019-10-01&MinorsChkBx=yes&submit=Search&start=2750
+137 http://www.prosportstransactions.com/baseball/Search/SearchResults.php?Player=&Team=&BeginDate=1999-10-28&EndDate=2019-10-01&MinorsChkBx=yes&submit=Search&start=3425
+3327 http://www.prosportstransactions.com/baseball/Search/SearchResults.php?Player=&Team=&BeginDate=1999-10-28&EndDate=2019-10-01&MinorsChkBx=yes&submit=Search&start=83175
