@@ -1,0 +1,2 @@
+3805 http://www.prosportstransactions.com/baseball/Search/SearchResults.php?Player=&Team=&BeginDate=1999-10-28&EndDate=2019-10-01&PlayerMovementChkBx=yes&submit=Search&start=95125
+4039 http://www.prosportstransactions.com/baseball/Search/SearchResults.php?Player=&Team=&BeginDate=1999-10-28&EndDate=2019-10-01&PlayerMovementChkBx=yes&submit=Search&start=100975
