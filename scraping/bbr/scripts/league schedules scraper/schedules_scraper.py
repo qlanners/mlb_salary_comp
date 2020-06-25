@@ -11,8 +11,10 @@ to grab, all game schedules for all seasons
 '''
 start = time.perf_counter()
 
+GAMEKEYS = []
 YEAR = []
-DATES_ENGLISH = []
+MONTHS =[]
+DAYOFWEEK = []
 DATES_ALPHA = []
 AWAYTEAMFULL = []
 AWAYTEAMABRR = []
@@ -24,6 +26,7 @@ STARTIME = []
 ATTENDANCE = []
 VENUE = []
 DURATION = []
+DOUBLEHEADER = []
 
 
 for year in range(2000,2020):
@@ -43,43 +46,59 @@ for year in range(2000,2020):
             a2 = p('a')[1]
 
             boxscore = p.find('em')
-            boxUrl = 'https://www.baseball-reference.com/' + boxscore.find('a')['href']
+        boxscoreUrl = boxscore.find('a')['href']
 
-            boxRes = requests.get(boxUrl)
-            boxSoup=bs4.BeautifulSoup(boxRes.text, 'html.parser')
+        boxUrl = 'https://www.baseball-reference.com/' + boxscoreUrl
 
-            boxMeta = boxSoup.find('div',{'class':'scorebox_meta'})
+        boxRes = requests.get(boxUrl)
+        boxSoup=bs4.BeautifulSoup(boxRes.text, 'html.parser')
 
-            for bm in boxMeta('div'):
-                for bms in bm('strong'):
+        boxMeta = boxSoup.find('div',{'class':'scorebox_meta'})
 
-                    if bms.text.strip() == 'Attendance':
-                        attendance = int(bm.text.split(': ')[1].replace(',',''))
-                    elif bms.text.strip() == 'Venue':
-                        venue = bm.text.split(': ')[1]
-                    elif bms.text.strip() == 'Game Duration':
-                        gameDur = bm.text.split(': ')[1]
+        for bm in boxMeta('div'):
+            for bms in bm('strong'):
 
-            YEAR.append(year)
-            DATES_ENGLISH.append(h.text)
-            DATES_ALPHA.append(datetime.strptime(h.text, '%A, %B %d, %Y').strftime("%Y-%m-%d"))
-            AWAYTEAMFULL.append(a1.text)
-            HOMETEAMFULL.append(a2.text)
-            AWAYTEAMABRR.append(a1['href'].split('/')[2])
-            HOMETEAMABRR.append(a2['href'].split('/')[2])
-            AWAYTEAMSCORE.append(int(p.text.split('(')[1].split(')')[0]))
-            HOMETEAMSCORE.append(int(p.text.split('(')[2].split(')')[0]))
-            STARTIME.append(boxMeta('div')[1].text.split(': ')[1])
-            ATTENDANCE.append(attendance)
-            VENUE.append(venue)
-            DURATION.append(gameDur)
+                if bms.text.strip() == 'Attendance':
+                    attendance = int(bm.text.split(': ')[1].replace(',',''))
+                elif bms.text.strip() == 'Venue':
+                    venue = bm.text.split(': ')[1]
+                elif bms.text.strip() == 'Game Duration':
+                    gameDur = bm.text.split(': ')[1]
 
-            elapsed_ = time.perf_counter() - start
-            hours   = floor(elapsed_ / 60**2)
-            minutes = floor((elapsed_ - hours*60**2) / 60)
-            seconds = floor(elapsed_ - hours*60**2 -minutes*60)
 
-            print(h.text, ' - ', a1['href'].split('/')[2] + '-' + a2['href'].split('/')[2], ' - ',  'Elapsed Time:',  hours, 'hours', minutes, 'minutes', seconds, 'seconds')
+        date = datetime.strptime(h.text, '%A, %B %d, %Y').strftime("%Y-%m-%d")
+        homeTeam = a2['href'].split('/')[2]
+        awayTeam = a1['href'].split('/')[2]
+        doubleHeader = boxscoreUrl.replace('.shtml','')[-1]
+        gameKey = date.replace('-','') + homeTeam + awayTeam + doubleHeader
+
+        dayOfWeek= h.text.split(',')[0]
+        month = h.text.split()[1]
+
+
+        GAMEKEYS.append(gameKey)
+        YEAR.append(year)
+        MONTHS.append(month)
+        DAYOFWEEK.append(dayOfWeek)
+        DATES_ALPHA.append(date)
+        AWAYTEAMFULL.append(a1.text)
+        HOMETEAMFULL.append(a2.text)
+        AWAYTEAMABRR.append(awayTeam)
+        HOMETEAMABRR.append(homeTeam)
+        AWAYTEAMSCORE.append(int(p.text.split('(')[1].split(')')[0]))
+        HOMETEAMSCORE.append(int(p.text.split('(')[2].split(')')[0]))
+        STARTIME.append(boxMeta('div')[1].text.split(': ')[1])
+        ATTENDANCE.append(attendance)
+        VENUE.append(venue)
+        DURATION.append(gameDur)
+        DOUBLEHEADER.append(doubleHeader)
+
+        elapsed_ = time.perf_counter() - start
+        hours   = floor(elapsed_ / 60**2)
+        minutes = floor((elapsed_ - hours*60**2) / 60)
+        seconds = floor(elapsed_ - hours*60**2 -minutes*60)
+
+        print(date, ' - ', awayTeam + ' @ ' + homeTeam, ' - ',  'Elapsed Time:',  hours, 'hours', minutes, 'minutes', seconds, 'seconds')
 
 columns = ['year', 'dateEng', 'date', 'startTime', 'awayTeam', 'awayTeamAbbr', 'homeTeam', 'homeTeamAbbr', 'awayTeamScore', 'homeTeamScore', 'venue', 'attendance', 'gameDuration']
 dataDict = {}
