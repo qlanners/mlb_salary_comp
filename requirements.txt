@@ -78,7 +78,7 @@ texttable==0.9.1
 tornado==6.0.3
 traitlets==4.3.3
 Unidecode==1.1.1
-urllib3==1.25.8
+urllib3==1.26.5
 wcwidth==0.1.8
 webencodings==0.5.1
 websocket-client==0.57.0
